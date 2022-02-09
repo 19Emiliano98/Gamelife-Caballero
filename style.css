@@ -1,0 +1,377 @@
+/* GRIDPRINCIPAL */
+.gridPadre {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #001825;
+    color: white;
+}
+    
+    .gridHeader { 
+        grid-area: 1 / 1 / 2 / 6;
+        background-image: linear-gradient(to top, #001825, #141414);
+    }
+    .gridNoticias { 
+        grid-area: 2 / 1 / 5 / 4;
+        margin: -12% 0% 0% 0%;
+    }
+    .gridTrailers { 
+        grid-area: 2 / 4 / 5 / 6;
+        margin: -18% 0% 0% 0%;
+    }
+    .gridFooter{
+        grid-area: 5 / 1 / 6 / 6;
+        background-image: linear-gradient(to bottom, #001825, #141414);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Encabezado */
+#titulo{
+    font-size: 3.7rem;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#marginTitulo{
+    margin: 0rem 0rem 0rem 5rem;
+}
+#icono{
+    height: 5rem;
+    width: 5rem;
+    object-fit:cover;
+    animation: movimientoLogo 1.4s linear infinite;
+}
+@keyframes movimientoLogo {
+    0%{
+        transform: translate(0px, 4px);
+    }
+    25%{
+        transform: translate(4px, 0px);
+    }
+    50%{
+        transform: translate(0px, -4px);
+    }
+    75%{
+        transform: translate(-4px, 0px);
+    }
+    100%{
+        transform: translate(0px, 4px);
+    }
+}
+.nav{
+    font-size: 145%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    list-style: none;
+}
+.nav li{
+    display: inline;
+}
+.nav ul{
+    margin: 6% 0% 0% 0%;
+}
+.nav li{
+    margin: 7rem 0rem 0rem 0.7rem;
+}
+.nav__li{
+    margin: 0.5rem 1rem 0rem -0.62rem; 
+}
+.flexBox__header{
+    display: flex;
+    position: absolute;
+    margin: 1rem 0rem 0rem 1rem;
+}
+.flexBox__nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 5rem 0rem 0rem;
+    font-size: 1.3rem;
+    font-family: 'Orbitron', sans-serif;
+}
+.fontNav{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+.fontfooter{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    margin: 4.5rem 0rem 0rem 2rem;
+}
+.fonticon{
+    margin: 2.5rem 0rem 0rem 1.6rem;
+}
+/* font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: 0rem 0rem 5rem 0rem; */
+.marginNav{
+    margin: -1.9rem 4rem 0rem 0rem;
+    font-size: 1.3rem;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+a:hover{
+    color: white;
+}
+/* Cuerpo */
+.decorado{
+    height: 120px;
+    width: 210px;
+    object-fit: cover;
+    border: rgb(48, 27, 27) solid;
+}   
+.flexBox__cuerpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.separado{
+    margin: -2% 0% 6% 0%;
+}
+.separadoSub{
+    margin: 0% 0% 6% 0%;
+}
+.flexBox__cuerpoNoticias{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0rem 0rem 4rem;
+}
+.ubicacionTexto{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: -8rem 0rem 0rem 15rem;
+}
+.titulos{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: 0rem 0rem 5rem 0rem;
+}
+.titulosImagen{
+    font-size: 110%;
+    font-family: 'Orbitron', sans-serif;
+}
+p{
+    font-family: 'Play', sans-serif;
+    font-size: 1rem;
+}
+.entreSeparado{
+    margin: 2% 0% 0% 0%;
+}
+/* Footer */
+.flexBox__footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: relative;
+    margin: 11.3rem 0rem 0rem 2rem;
+}
+.icon{
+    display: flex;
+    position: absolute;
+    margin: 0rem 0rem 1rem 0rem;
+}
+.iconSeparacion{
+    margin: 0% 0% 0% 20%;
+}
+/* Grid de Sections */
+.gridPadre__sections {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #001825;
+    color: white;
+    }
+    
+    .gridHeader__sections { 
+        grid-area: 1 / 1 / 2 / 6;
+        background-image: linear-gradient(to top, #001825, #141414); 
+    }
+    .gridBody__sections { 
+        grid-area: 2 / 1 / 5 / 6; 
+    }
+    .gridFooter__sections { 
+        grid-area: 5 / 1 / 6 / 6;
+        background-image: linear-gradient(to bottom, #001825, #141414);
+    }
+
+    .flexBody__sections{
+        display: flex;
+        flex-direction: column;
+        margin: -5rem 0rem 0rem 2rem;
+    }
+    .decoradoPortadas{
+        height: 298px;
+        width: 210px;
+        object-fit: cover;
+        border: rgb(48, 27, 27) solid;
+    }
+    .ubicacionTexto__sections{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin: -19rem 0rem 0rem 16rem;
+    } 
+    .separado__sections{
+        margin: 0rem 0rem 5rem 0rem;
+    }
+    .titulosCategoria{
+        margin: -8rem 0rem 5rem 35.5rem;
+    }
+    .tituloSection{
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        text-decoration: underline;
+        margin: -11rem 0rem 5rem 35rem;
+    }
+    .separadoLista__section{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin: 9rem 0rem 0rem 3.7rem;
+        font-size: 0.8rem;
+        font-family: 'Orbitron', sans-serif; 
+    }
+    .entreLinea__section{
+        margin: 0.7rem 0rem 0rem 0rem;
+    }
+    .entreLista__section{
+        margin: 2rem 0rem 0rem 3.7rem;
+    }
+    .separadoEntrelista__section{
+        margin: 0rem 0rem 0rem 0rem;
+    }
+    .separadoDescripcion__section{
+        margin: 2rem 0rem 0rem 0rem;
+    }
+/* Footer */
+.flexFooter__section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 20.3rem 0rem 0rem 2rem;
+}
+/* Media Queries */
+@media (max-width: 575.98px){
+    .gridHeader { 
+        grid-area: 1 / 1 / 2 / 4;
+    }
+    
+    .gridNoticias { 
+        grid-area: 2 / 1 / 4 / 4; 
+    }
+    
+    .gridTrailers{ 
+        grid-area: 4 / 1 / 6 / 4; 
+    }
+    
+    .gridFooter { 
+        grid-area: 6 / 1 / 7 / 4; 
+    }
+/* Header */
+#titulo{
+    font-size: 330%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+#icono{
+    height: 14%;
+    width: 14%;
+    object-fit:cover;
+    }
+.nav{
+    font-size: 1rem;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    list-style: none;
+    }
+.nav ul{
+    margin: 38% 0% 0% 0%;
+    }
+.nav li{
+    margin: 7px 0px 0px 10px;
+    }
+.flexBox__header{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin: 2% 0% 0% 9%;
+    }
+.flexBox__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    margin: -3% 0% 0% 34%;
+    }
+    /* body */
+    .flexBox__cuerpoNoticias{
+        display: flex;
+        flex-direction: column;
+        margin: -10rem 0rem 0rem 1rem;
+    }
+    .ubicacionTexto{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        /* margin: -16% 0% 0% 30%; */
+        margin: -6rem 0rem 0rem 10.4rem;
+    }
+    .titulos{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+        text-decoration: underline;
+        margin: 5% 0% 10% 60%;
+    }
+    .titulosImagen{
+        font-size: 77%;
+        font-family: 'Orbitron', sans-serif;
+    }
+    p{
+        font-family: 'Play', sans-serif;
+        font-size: 85%;
+    }
+    .decorado{
+        height: 85px;
+        width: 150px;
+        object-fit: cover;
+        border: rgb(48, 27, 27) solid;
+    }
+    .separado{
+        margin: 3% 0% 9% 0%;
+    }
+    .separadoVideos{
+        margin: 3% 0% 9% 65%;
+    }
+    .separadoSub{
+        margin: 0% 0% 6% 0%;
+    }
+    .flexBox__cuerpo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: -37% 0% 6% 0%; */
+        margin: 0rem 0rem -11rem 0rem;
+    }
+    /* Footer */  
+    .icon{
+        margin: 0rem 0rem 0rem -13rem;
+    }
+    .titulosMobile{
+        margin: 0rem 0rem 4.5rem 0rem;
+    }
+    .iconSeparacion{
+        margin: 0% 0% 20% 25%;
+    }
+}
+    @media (min-width: 600px) and (max-width: 1440px){
+        
+    }  
+
+
