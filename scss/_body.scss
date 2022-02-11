@@ -1,0 +1,46 @@
+.decorado{
+    height: 120px;
+    width: 210px;
+    object-fit: cover;
+    border: rgb(48, 27, 27) solid;
+}   
+.flexBox__cuerpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.separado{
+    margin: -2% 0% 6% 0%;
+}
+.separadoSub{
+    margin: 0% 0% 6% 0%;
+}
+.flexBox__cuerpoNoticias{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0rem 0rem 4rem;
+}
+.ubicacionTexto{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: -8rem 0rem 0rem 15rem;
+}
+.titulos{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: 0rem 0rem 5rem 0rem;
+}
+.titulosImagen{
+    font-size: 110%;
+    font-family: 'Orbitron', sans-serif;
+}
+p{
+    font-family: 'Play', sans-serif;
+    font-size: 1rem;
+}
+.entreSeparado{
+    margin: 2% 0% 0% 0%;
+}

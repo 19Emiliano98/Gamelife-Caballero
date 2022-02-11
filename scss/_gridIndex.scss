@@ -1,0 +1,26 @@
+.gridPadre {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #001825;
+    color: white;
+}
+    
+    .gridHeader { 
+        grid-area: 1 / 1 / 2 / 6;
+        background-image: linear-gradient(to top, #001825, #141414);
+    }
+    .gridNoticias { 
+        grid-area: 2 / 1 / 5 / 4;
+        margin: -12% 0% 0% 0%;
+    }
+    .gridTrailers { 
+        grid-area: 2 / 4 / 5 / 6;
+        margin: -18% 0% 0% 0%;
+    }
+    .gridFooter{
+        grid-area: 5 / 1 / 6 / 6;
+        background-image: linear-gradient(to bottom, #001825, #141414);
+}
