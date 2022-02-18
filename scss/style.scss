@@ -1,9 +1,12 @@
-@import "./general";
-/* Grids */
-@import "./gridIndex";
+@import "./general/general";
+@import "./general/variables";
 
+@import "./index/gridIndex";
+@import "./sections/gridSections";
 
-@import "./header";
-@import "./animationIcono";
-@import "./body";
-@import "./footer";
+@import "./index/header";
+@import "./index/body";
+@import "./index/footer";
+
+@import "./sections/bodySections";
+@import "./sections/footerSections";

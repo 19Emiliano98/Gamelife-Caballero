@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.gridPadre {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #001825;
+  color: white; }
+
+.gridHeader {
+  grid-area: 1 / 1 / 2 / 6;
+  background-image: linear-gradient(to top, #001825, #141414); }
+
+.gridNoticias {
+  grid-area: 2 / 1 / 5 / 4;
+  margin: -12% 0% 0% 0%; }
+
+.gridTrailers {
+  grid-area: 2 / 4 / 5 / 6;
+  margin: -18% 0% 0% 0%; }
+
+.gridFooter {
+  grid-area: 5 / 1 / 6 / 6;
+  background-image: linear-gradient(to bottom, #001825, #141414); }
+
+.gridPadre__sections {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #001825;
+  color: white; }
+
+.gridHeader__sections {
+  grid-area: 1 / 1 / 2 / 6;
+  background-image: linear-gradient(to top, #001825, #141414); }
+
+.gridBody__sections {
+  grid-area: 2 / 1 / 5 / 6; }
+
+.gridFooter__sections {
+  grid-area: 5 / 1 / 6 / 6;
+  background-image: linear-gradient(to bottom, #001825, #141414); }
+
+#titulo {
+  font-size: 3.7rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+#marginTitulo {
+  margin: 0rem 0rem 0rem 5rem; }
+
+#icono {
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+  animation: movimientoLogo 1.4s linear infinite; }
+
+.nav {
+  font-size: 145%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style: none; }
+
+.nav li {
+  display: inline; }
+
+.nav ul {
+  margin: 6% 0% 0% 0%; }
+
+.nav li {
+  margin: 7rem 0rem 0rem 0.7rem; }
+
+.nav__li {
+  margin: 0.5rem 1rem 0rem -0.62rem; }
+
+.flexBox__header {
+  display: flex;
+  position: absolute;
+  margin: 1rem 0rem 0rem 1rem; }
+
+.flexBox__nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem 5rem 0rem 0rem;
+  font-size: 1.3rem;
+  font-family: 'Orbitron', sans-serif; }
+
+.fontNav {
+  font-family: 'Orbitron', sans-serif;
+  color: white; }
+
+.fontfooter {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  margin: 4.5rem 0rem 0rem 2rem; }
+
+.fonticon {
+  margin: 2.5rem 0rem 0rem 1.6rem; }
+
+/* font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: 0rem 0rem 5rem 0rem; */
+.marginNav {
+  margin: -1.9rem 4rem 0rem 0rem;
+  font-size: 1.3rem; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+a:hover {
+  color: white; }
+
+.decorado {
+  height: 120px;
+  width: 210px;
+  object-fit: cover;
+  border: #301b1b solid; }
+
+.flexBox__cuerpo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.separado {
+  margin: -2% 0% 6% 0%; }
+
+.separadoSub {
+  margin: 0% 0% 6% 0%; }
+
+.flexBox__cuerpoNoticias {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 0rem 0rem 4rem; }
+
+.ubicacionTexto {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: -8rem 0rem 0rem 15rem; }
+
+.titulos {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  margin: 0rem 0rem 5rem 0rem; }
+
+.titulosImagen {
+  font-size: 110%;
+  font-family: 'Orbitron', sans-serif; }
+
+p {
+  font-family: 'Play', sans-serif;
+  font-size: 1rem; }
+
+.entreSeparado {
+  margin: 2% 0% 0% 0%; }
+
+.flexBox__footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: relative;
+  margin: 11.3rem 0rem 0rem 2rem; }
+
+.icon {
+  display: flex;
+  position: absolute;
+  margin: 0rem 0rem 1rem 0rem; }
+
+.iconSeparacion {
+  margin: 0% 0% 0% 20%; }
+
+.flexBody__sections {
+  display: flex;
+  flex-direction: column;
+  margin: -5rem 0rem 0rem 2rem; }
+
+.decoradoPortadas {
+  height: 298px;
+  width: 210px;
+  object-fit: cover;
+  border: #301b1b solid; }
+
+.ubicacionTexto__sections {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: -19rem 0rem 0rem 16rem; }
+
+.separado__sections {
+  margin: 0rem 0rem 5rem 0rem; }
+
+.titulosCategoria {
+  margin: -8rem 0rem 5rem 35.5rem; }
+
+.tituloSection {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  margin: -11rem 0rem 5rem 35rem; }
+
+.separadoLista__section {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: 9rem 0rem 0rem 3.7rem;
+  font-size: 0.8rem;
+  font-family: 'Orbitron', sans-serif; }
+
+.entreLinea__section {
+  margin: 0.7rem 0rem 0rem 0rem; }
+
+.entreLista__section {
+  margin: 2rem 0rem 0rem 3.7rem; }
+
+.separadoEntrelista__section {
+  margin: 0rem 0rem 0rem 0rem; }
+
+.separadoDescripcion__section {
+  margin: 2rem 0rem 0rem 0rem; }
+
+.flexFooter__section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 20.3rem 0rem 0rem 2rem; }

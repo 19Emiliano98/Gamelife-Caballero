@@ -1,0 +1,49 @@
+.flexBody__sections{
+    display: flex;
+    flex-direction: column;
+    margin: -5rem 0rem 0rem 2rem;
+}
+.decoradoPortadas{
+    height: 298px;
+    width: 210px;
+    object-fit: cover;
+    border: rgb(48, 27, 27) solid;
+}
+.ubicacionTexto__sections{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: -19rem 0rem 0rem 16rem;
+} 
+.separado__sections{
+    margin: 0rem 0rem 5rem 0rem;
+}
+.titulosCategoria{
+    margin: -8rem 0rem 5rem 35.5rem;
+}
+.tituloSection{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: -11rem 0rem 5rem 35rem;
+}
+.separadoLista__section{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 9rem 0rem 0rem 3.7rem;
+    font-size: 0.8rem;
+    font-family: 'Orbitron', sans-serif; 
+}
+.entreLinea__section{
+    margin: 0.7rem 0rem 0rem 0rem;
+}
+.entreLista__section{
+    margin: 2rem 0rem 0rem 3.7rem;
+}
+.separadoEntrelista__section{
+    margin: 0rem 0rem 0rem 0rem;
+}
+.separadoDescripcion__section{
+    margin: 2rem 0rem 0rem 0rem;
+}
