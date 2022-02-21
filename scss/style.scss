@@ -1,12 +1,19 @@
 @import "./general/general";
 @import "./general/variables";
+@import "./mixin.scss";
 
+/* Grids */
 @import "./index/gridIndex";
 @import "./sections/gridSections";
 
+/* Animaciones */
+@import "./general/animation";
+
+/* contenido de index */
 @import "./index/header";
 @import "./index/body";
 @import "./index/footer";
 
+/* contenido de las secciones */
 @import "./sections/bodySections";
 @import "./sections/footerSections";
