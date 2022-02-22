@@ -25,7 +25,13 @@
     position: absolute;
     margin: -8rem 0rem 0rem 15rem;
 }
-.titulos{
+.tituloNoti{
+    font-family: $subtitulosNav;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: 0rem 0rem 5rem 0rem;
+}
+.tituloVideo{
     font-family: $subtitulosNav;
     font-size: 2rem;
     text-decoration: underline;
@@ -39,6 +45,13 @@ p{
     font-family: 'Play', sans-serif;
     font-size: 1rem;
 }
+.renglon{
+    position: absolute;
+    margin: -1rem 0rem 0rem 0rem;
+}
 .entreSeparado{
     margin: 2% 0% 0% 0%;
+}
+.videos{
+    border: 2px solid rgb(48, 27, 27);
 }

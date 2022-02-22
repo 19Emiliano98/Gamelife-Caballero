@@ -73,10 +73,11 @@
 #marginTitulo {
   margin: 0rem 0rem 0rem 5rem; }
 
-#icono {
+.icono {
   height: 5rem;
   width: 5rem;
   object-fit: cover;
+  position: absolute;
   animation: movimientoLogo 1.4s linear infinite; }
 
 .nav li {
@@ -109,6 +110,7 @@
   font-size: 1.6rem;
   font-family: "Oswald", "sans-serif"; }
 
+/* esto ubicarlo en footer */
 .fontfooter {
   font-family: "Oswald", "sans-serif";
   font-size: 2rem;
@@ -157,7 +159,13 @@ a:hover {
   position: absolute;
   margin: -8rem 0rem 0rem 15rem; }
 
-.titulos {
+.tituloNoti {
+  font-family: "Oswald", "sans-serif";
+  font-size: 2rem;
+  text-decoration: underline;
+  margin: 0rem 0rem 5rem 0rem; }
+
+.tituloVideo {
   font-family: "Oswald", "sans-serif";
   font-size: 2rem;
   text-decoration: underline;
@@ -171,8 +179,15 @@ p {
   font-family: 'Play', sans-serif;
   font-size: 1rem; }
 
+.renglon {
+  position: absolute;
+  margin: -1rem 0rem 0rem 0rem; }
+
 .entreSeparado {
   margin: 2% 0% 0% 0%; }
+
+.videos {
+  border: 2px solid #301b1b; }
 
 .flexBox__footer {
   display: flex;
@@ -180,6 +195,12 @@ p {
   align-items: flex-end;
   position: relative;
   margin: 11.3rem 0rem 0rem 2rem; }
+
+.tituloFoot {
+  font-family: "Oswald", "sans-serif";
+  font-size: 1.3rem;
+  text-decoration: underline;
+  margin: 0rem 0rem 0rem 0rem; }
 
 .icon {
   display: flex;
@@ -244,3 +265,79 @@ p {
   flex-direction: row;
   align-items: flex-end;
   margin: 20.3rem 0rem 0rem 2rem; }
+
+/* media queries */
+/* media */
+@media (max-width: 425px) {
+  /* Grid mobile */
+  .gridPadre {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; }
+  .gridHeader {
+    grid-area: 1 / 1 / 4 / 4; }
+  .gridNoticias {
+    grid-area: 4 / 1 / 7 / 4;
+    margin: 0rem 0rem -27rem 0rem; }
+  .gridTrailers {
+    grid-area: 7 / 1 / 10 / 4;
+    margin: 30rem 0rem 0rem 0rem;
+    background-image: linear-gradient(to top, #001825, #001825); }
+  .gridFooter {
+    grid-area: 10 / 1 / 13 / 4;
+    margin: -4rem 0rem 0rem 0rem; }
+  /* Titulo Gamelife*/
+  #titulo {
+    font-size: 2.7rem; }
+  #marginTitulo {
+    margin: 0rem 0rem 0rem 8rem; }
+  .icono {
+    height: 4rem;
+    width: 4rem;
+    margin: 0rem 0rem 0rem 4.2rem; }
+  /* Navbar */
+  .nav li {
+    margin: 7.5rem 0rem 0rem 0.7rem; }
+  .nav__li {
+    font-size: 1rem; }
+  .counter {
+    border-left: 2.5px solid white;
+    padding: 0px 0px 0px 11px; }
+  .marginNav {
+    margin: -2rem 3.3rem 0rem 0rem;
+    font-size: 1.3rem; }
+  /* Subtitulos y Contenido */
+  .tituloNoti {
+    font-family: "Oswald", "sans-serif";
+    font-size: 1.3rem;
+    text-decoration: underline;
+    margin: 0rem 0rem 2rem 4.1rem; }
+  .tituloVideo {
+    font-family: "Oswald", "sans-serif";
+    font-size: 1.3rem;
+    text-decoration: underline;
+    margin: -2rem 0rem 2rem -0.4rem; }
+  .titulosImagen {
+    font-size: 1.4rem;
+    font-family: "Oswald", "sans-serif"; }
+  .decorado {
+    height: 60px;
+    width: 105px;
+    object-fit: cover;
+    border: 1px #301b1b solid; }
+  .ubicacionTexto {
+    margin: -3.7rem 0rem 0rem 7.3rem; }
+  .separado {
+    margin: 0rem 0rem 2rem -3.5rem; }
+  .entreSeparado {
+    margin: -0.2rem 0rem 0rem 0rem; }
+  .renglon {
+    margin: -1.9rem 0rem 0rem 1.5rem; }
+  .titulosImagen {
+    font-size: 0.7rem; }
+  .titulosImagenmobile {
+    font-size: 1rem; }
+  p {
+    font-size: 0.6rem; } }

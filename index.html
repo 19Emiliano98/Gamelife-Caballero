@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,26 +22,30 @@
     <meta name="description" content="Gamelife es una página donde encontrarás todo sobre el mundo de los videojuegos, donde podrás ver noticias, juegos y más">
 </head>
 <body>
-    <div class="gridPadre">
+    <div class="gridPadre gridTrailermobile">
         <div class="gridHeader">
-            <div class="flexBox__header">
-                <img src="imagenes/icono.png" id="icono">
-                <h1 id="titulo"><a href="./index.html">GameLife</a></h1>
+            <div class="ms-3 mt-3">
+                <img class="icono" class="d-flex position-absolute" src="../imagenes/icono.png">
+                <h1 id="titulo" class="fw-bold d-flex position-absolute mt-1"><a href="../index.html" id="marginTitulo">GameLife</a></h1>
             </div>
-        <nav class="nav">
-            <div class="flexBox__nav">
-            <ul>
-                <li><a href="./paginas/shooters.html">Shooters</a></li>
-                <li><a href="./paginas/sandboxs.html" class="counter">SandBoxs</a></li>
-                <li><a href="./paginas/roguelikes.html" class="counter">Rogue-Likes</a></li>
-                <li><a href="./paginas/contactanos.html" class="counter">Contáctanos</a></li>
+            <ul class="nav d-flex justify-content-end marginNav">
+                <li class="nav__li">
+                        <a aria-current="page" href="../paginas/shooters.html">Shooters</a>
+                </li>
+                <li class="nav__li">
+                    <a href="../paginas/sandboxs.html" class="counter">SandBoxs</a>
+                </li>
+                <li class="nav__li">
+                        <a href="../paginas/roguelikes.html" class="counter">Rogue-Likes</a>   
+                </li>
+                <li class="nav__li">
+                        <a href="../paginas/contactanos.html" class="counter">Contáctanos</a>
+                </li>
             </ul>
-            </div>
-        </nav>
         </div>
         <div class="gridNoticias">
             <div class="flexBox__cuerpoNoticias">
-                <h2 class="titulos">Noticias Destacadas</h2>
+                <h2 class="tituloNoti">Noticias Destacadas</h2>
                 <article class="separado">
                     <img src="./imagenes/logosteam.jpg" class="decorado" alt="steam">
                     <div class="ubicacionTexto">
@@ -91,11 +96,11 @@
                 <img src="./imagenes/darksouls.jpg" class="decorado" alt="dark souls">
                 <div class="ubicacionTexto">
                     <h3 class="titulosImagen">¿Dark Souls y Dungeons & Dragons?<br>
-                        Este juego de mesa ya tiene tráiler y promete más rol<br> por 
+                        Este juego de mesa ya tiene tráiler y promete más rol por 
                         Lordran.</h3>
                             <div class="entreSeparado">
                                 <p>From Software y Bandai Namco colaboran en esta propuesta, 
-                                que sería <br>el segundo juego de mesa basado en el título.</p>                
+                                que sería</p><p class="renglon">el segundo juego de mesa basado en el título.</p>                
                             </div>
                 </div>
                 </article>
@@ -114,28 +119,28 @@
         </div>
         <div class="gridTrailers">
             <div class="flexBox__cuerpo">
-            <h2 class="titulos">Trailers Destacados</h2>
-            <article class="separado separadoVideos">    
-                <h3 class="titulosImagen"><div class="separadoSub">Sekiro: Shadows Die Twice</div></h3>
+            <h2 class="tituloVideo">Trailers Destacados</h2>
+            <article class="separado">    
+                <h3 class="titulosImagen titulosImagenmobile"><div class="separadoSub">Sekiro: Shadows Die Twice</div></h3>
                 <iframe src="https://www.youtube.com/embed/rXMX4YJ7Lks" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videos"></iframe>
             </article>
-            <article class="separado separadoVideos">
-                <h3 class="titulosImagen"><div class="separadoSub">Dyingh Light 2: Stay Human</div></h3>
+            <article class="separado">
+                <h3 class="titulosImagen titulosImagenmobile"><div class="separadoSub">Dyingh Light 2: Stay Human</div></h3>
                 <iframe src="https://www.youtube.com/embed/uL6OeuicjyU" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videos"></iframe>
             </article>
-            <article class="separado separadoVideos">
-                <h3 class="titulosImagen"><div class="separadoSub">God of War: Ragnarok</div></h3>
+            <article class="separado">
+                <h3 class="titulosImagen titulosImagenmobile"><div class="separadoSub">God of War: Ragnarok</div></h3>
                 <iframe src="https://www.youtube.com/embed/EE-4GvjKcfs" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videos"></iframe>
             </article>
-            <article class="separado separadoVideos">    
-                <h3 class="titulosImagen"><div class="separadoSub">Horizon Forbidden West</div></h3>
+            <article class="separado">    
+                <h3 class="titulosImagen titulosImagenmobile"><div class="separadoSub">Horizon Forbidden West</div></h3>
                 <iframe src="https://www.youtube.com/embed/rw-TJfL-w2g" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videos"></iframe>
             </article>
             </div>
         </div>
         <div class="gridFooter">
             <div class="flexBox__footer">
-            <h2 class="titulos titulosMobile">También puedes encontrarnos en...</h2>
+            <h2 class="tituloFoot">También puedes encontrarnos en...</h2>
                 <div class="icon"> 
                     <div class="iconSeparacion">
                     <a href="https://www.instagram.com" target="_blank"><i 
@@ -154,7 +159,9 @@
                     </div>
                 </div>                
             </div>
-        </div>        
+        </div> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>       
 </body>
 </div>
 </html>

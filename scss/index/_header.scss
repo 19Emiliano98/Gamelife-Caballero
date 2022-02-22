@@ -5,10 +5,11 @@
 #marginTitulo{
     margin: 0rem 0rem 0rem 5rem;
 }
-#icono{
+.icono{
     height: 5rem;
     width: 5rem;
     object-fit:cover;
+    position: absolute;
     animation: movimientoLogo 1.4s linear infinite;
 }
 .nav li{
@@ -41,6 +42,7 @@
     font-size: 1.6rem;
     font-family: $subtitulosNav;
 }
+/* esto ubicarlo en footer */
 .fontfooter{
     font-family: $subtitulosNav;
     font-size: 2rem;
