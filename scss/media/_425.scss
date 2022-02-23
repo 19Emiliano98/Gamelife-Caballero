@@ -22,7 +22,7 @@
         }
         .gridFooter{ 
             grid-area: 10 / 1 / 13 / 4;
-            margin: -4rem 0rem 0rem 0rem;
+            margin: -1rem 0rem 0rem 0rem;
         }
 
     /* Titulo Gamelife*/
@@ -93,9 +93,26 @@
         font-size: 0.7rem;
     }
     .titulosImagenmobile{
+        display: flex;
+        justify-content: center;
         font-size: 1rem;
+        margin: 0rem 0rem 0rem 3rem;
     }
     p{
         font-size: 0.6rem;
+    }
+    .videos{
+        width: 280px;
+        height: 150px;
+        margin: 0rem 0rem 0rem 3rem;
+    }
+
+    /* Contenido de Footer */
+    .tituloFoot{
+        font-family: $subtitulosNav;
+        font-size: 1.3rem;
+        text-decoration: underline;
+        position: absolute;
+        margin: 0rem 0rem 4.7rem 0rem;
     }
 }
