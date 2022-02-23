@@ -3,13 +3,14 @@
     flex-direction: row;
     align-items: flex-end;
     position: relative;
-    margin: 11.3rem 0rem 0rem 2rem;
+    margin: 17rem 0rem 0rem 2rem;
 }
 .tituloFoot{
     font-family: $subtitulosNav;
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-decoration: underline;
-    margin: 0rem 0rem 0rem 0rem;
+    position: absolute;
+    margin: 0rem 0rem 4.7rem 0rem;
 }
 .icon{
     display: flex;
