@@ -1,16 +1,10 @@
 .padreContacto {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    background-color: $backgroundBot;
-    color: white;
+    @extend .gridPadre;
     }
     
     .headerContacto { 
         grid-area: 1 / 1 / 3 / 6;
-        background-image: linear-gradient(to top, $backgroundBot, $backgroundTop); 
+        background-image: linear-gradient(to top, map-get($map: $fondos, $key: 'centro'), map-get($map: $fondos, $key: 'extremos')); 
     }
     .bodyContacto {
         grid-area: 2 / 1 / 6 / 6; 
@@ -18,5 +12,5 @@
     }
     .footerContacto { 
         grid-area: 5 / 1 / 6 / 6;
-        background-image: linear-gradient(to bottom, $backgroundBot, $backgroundTop);
+        background-image: linear-gradient(to bottom, map-get($map: $fondos, $key: 'centro'), map-get($map: $fondos, $key: 'extremos'));
     }

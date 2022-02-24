@@ -2,11 +2,10 @@
     height: 120px;
     width: 210px;
     object-fit: cover;
-    border: rgb(48, 27, 27) solid;
+    @include bordes;
 }   
 .flexBox__cuerpo{
-    display: flex;
-    flex-direction: column;
+    @include display;
     justify-content: center;
     align-items: center;
 }
@@ -42,7 +41,7 @@
     font-family: $subtitulosNav;
 }
 p{
-    font-family: 'Play', sans-serif;
+    font-family: $parrafo;
     font-size: 1rem;
 }
 .renglon{
@@ -53,5 +52,5 @@ p{
     margin: 2% 0% 0% 0%;
 }
 .videos{
-    border: 2px solid rgb(48, 27, 27);
+    @include bordes;
 }

@@ -1,17 +1,15 @@
 .flexBody__sections{
-    display: flex;
-    flex-direction: column;
+    @include display;
     margin: -5rem 0rem 0rem 2rem;
 }
 .decoradoPortadas{
     height: 298px;
     width: 210px;
     object-fit: cover;
-    border: rgb(48, 27, 27) solid;
+    @include bordes;
 }
 .ubicacionTexto__sections{
-    display: flex;
-    flex-direction: column;
+    @include display;
     position: absolute;
     margin: -19rem 0rem 0rem 16rem;
 } 
@@ -22,18 +20,17 @@
     margin: -8rem 0rem 5rem 35.5rem;
 }
 .tituloSection{
-    font-family: 'Oswald', sans-serif;
+    font-family: $subtitulosNav;
     font-size: 2rem;
     text-decoration: underline;
     margin: -11rem 0rem 5rem 35rem;
 }
 .separadoLista__section{
-    display: flex;
-    flex-direction: column;
+    @include display;
     position: absolute;
     margin: 9rem 0rem 0rem 3.7rem;
     font-size: 0.8rem;
-    font-family: 'Orbitron', sans-serif; 
+    font-family: $parrafo; 
 }
 .entreLinea__section{
     margin: 0.7rem 0rem 0rem 0rem;
