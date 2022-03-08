@@ -85,9 +85,6 @@
   position: absolute;
   animation: movimientoLogo 1.4s linear infinite; }
 
-/* .nav li{
-    display: inline;
-} */
 .marginNav {
   margin: -1.9rem 4rem 0rem 0rem;
   font-size: 1.3rem; }
@@ -111,41 +108,27 @@
 .flexboxNav {
   display: flex;
   justify-content: flex-end;
-  margin: 8rem 6rem 0rem 0rem; }
+  margin: 2.6rem 2rem 0rem 0rem; }
 
 .flexboxNav div {
   font-size: 1.6rem;
   font-family: "Oswald", "sans-serif"; }
 
 .flexboxNav a {
-  color: black; }
+  color: black;
+  padding: 4px 17px 4px 17px; }
 
 .borderLeft {
   background-color: gray;
-  padding: 10px 0px 10px 10px;
   border-radius: 26px 0px 0px 26px; }
 
 .borderCenter {
-  background-color: gray;
-  padding: 10px 0px 10px 0px; }
+  background-color: gray; }
 
 .borderRight {
   background-color: gray;
-  padding: 10px 10px 10px 0px;
   border-radius: 0px 026px 026px 0px; }
 
-/* flexbox de navbar */
-/* .flexboxNav{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    font-size: 1.6rem;
-    font-family: $subtitulosNav;
-    border: 4px solid #1C6EA4;
-    border-radius: 17px;
-    margin: 0rem 0rem 0rem 0rem;
-    padding: 0rem 0rem 0rem 0rem;
-} */
 /* esto ubicarlo en footer */
 .fontfooter {
   font-family: "Oswald", "sans-serif";
@@ -161,6 +144,37 @@ a {
 
 a:hover {
   color: white; }
+
+.flexboxCarousel {
+  display: flex;
+  justify-content: flex-end;
+  margin: 6rem 5rem 9rem 33rem; }
+
+.decoradoCarousel {
+  object-fit: cover; }
+
+.flexboxTitulocarousel {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  margin: 7rem 0rem 0rem 2rem; }
+
+.tituloCarousel {
+  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
+  font-size: 1.4rem;
+  margin: 0rem 0rem 0rem 0.8rem; }
+
+.flexboxTextcarousel {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  margin: 7rem 0rem 0rem 2rem; }
+
+.fixTitulo {
+  margin: 2rem 0rem 0rem -19.5rem; }
+
+.parrafoCarousel {
+  margin: 5rem 0rem 0rem 0rem; }
 
 .decorado {
   height: 120px;
@@ -221,28 +235,28 @@ p {
 .videos {
   border: 3px #301b1b solid; }
 
-.flexBox__footer {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  position: relative;
-  margin: 17rem 0rem 0rem 2rem; }
-
-.tituloFoot {
-  font-family: "Oswald", "sans-serif";
-  font-size: 2rem;
-  text-decoration: underline;
-  position: absolute;
-  margin: 0rem 0rem 4.7rem 0rem; }
-
-.icon {
-  display: flex;
-  position: absolute;
-  margin: 0rem 0rem 1rem 0rem; }
-
-.iconSeparacion {
-  margin: 0% 0% 0% 20%; }
-
+/* .flexBox__footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: relative;
+    margin: 17rem 0rem 0rem 2rem;
+}
+.tituloFoot{
+    font-family: $subtitulosNav;
+    font-size: 2rem;
+    text-decoration: underline;
+    position: absolute;
+    margin: 0rem 0rem 4.7rem 0rem;
+}
+.icon{
+    display: flex;
+    position: absolute;
+    margin: 0rem 0rem 1rem 0rem;
+}
+.iconSeparacion{
+    margin: 0% 0% 0% 20%;
+} */
 /* contenido de las secciones */
 .flexBody__sections {
   display: flex;

@@ -1,0 +1,31 @@
+.flexboxCarousel{
+    display: flex;
+    justify-content: flex-end;
+    margin: 6rem 5rem 9rem 33rem;
+}
+.decoradoCarousel{
+    object-fit: cover;
+}
+.flexboxTitulocarousel{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    margin: 7rem 0rem 0rem 2rem;
+}
+.tituloCarousel{
+    font-family: $titulo;
+    font-size: 1.4rem;
+    margin: 0rem 0rem 0rem 0.8rem;
+}
+.flexboxTextcarousel{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    margin: 7rem 0rem 0rem 2rem;
+}
+.fixTitulo{
+    margin: 2rem 0rem 0rem -19.5rem;
+}
+.parrafoCarousel{
+    margin: 5rem 0rem 0rem 0rem;
+}

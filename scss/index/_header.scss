@@ -12,9 +12,6 @@
     position: absolute;
     animation: movimientoLogo 1.4s linear infinite;
 }
-/* .nav li{
-    display: inline;
-} */
 .marginNav{
     margin: -1.9rem 4rem 0rem 0rem;
     font-size: 1.3rem;
@@ -38,7 +35,7 @@
 .flexboxNav{
     display: flex;
     justify-content: flex-end;
-    margin: 8rem 6rem 0rem 0rem;
+    margin: 2.6rem 2rem 0rem 0rem;
 }
 .flexboxNav div{
     font-size: 1.6rem;
@@ -46,33 +43,19 @@
 }
 .flexboxNav a{
     color: black;
+    padding: 4px 17px 4px 17px;
 }
 .borderLeft{
     background-color: gray;
-    padding: 10px 0px 10px 10px;
     border-radius: 26px 0px 0px 26px;
 }
 .borderCenter{
     background-color: gray;
-    padding: 10px 0px 10px 0px;
 }
 .borderRight{
     background-color: gray;
-    padding: 10px 10px 10px 0px;
     border-radius: 0px 026px 026px 0px;
 }
-/* flexbox de navbar */
-/* .flexboxNav{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    font-size: 1.6rem;
-    font-family: $subtitulosNav;
-    border: 4px solid #1C6EA4;
-    border-radius: 17px;
-    margin: 0rem 0rem 0rem 0rem;
-    padding: 0rem 0rem 0rem 0rem;
-} */
 /* esto ubicarlo en footer */
 .fontfooter{
     font-family: $subtitulosNav;
