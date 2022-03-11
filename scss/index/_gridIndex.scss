@@ -1,6 +1,6 @@
 .gridPadre {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -9,20 +9,23 @@
 }
     
     .gridHeader { 
-        grid-area: 1 / 1 / 2 / 6;
+        grid-area: 1 / 1 / 2 / 7;
         background-color: map-get($map: $fondos, $key: 'extremos');
     }
-    .gridNoticias { 
-        grid-area: 2 / 1 / 5 / 4;
-        margin: -12% 0% 0% 0%;
+    .gridCarousel{
+        grid-area: 2 / 1 / 3 / 7;
+        margin: -18rem 0rem 0rem 0rem;
         background-image: linear-gradient(to top, map-get($map: $fondos, $key: 'centro'), map-get($map: $fondos, $key: 'extremos'));
+    }
+    .gridNoticias { 
+        grid-area: 3 / 1 / 5 / 5;
+        margin: -10rem 0rem 0rem 0rem;
     }
     .gridTrailers { 
-        grid-area: 2 / 4 / 5 / 6;
-        margin: -18% 0% 0% 0%;
-        background-image: linear-gradient(to top, map-get($map: $fondos, $key: 'centro'), map-get($map: $fondos, $key: 'extremos'));
+        grid-area: 3 / 5 / 5 / 7;
+        margin: -10rem 0rem 0rem 0rem;
     }
     .gridFooter{
-        grid-area: 5 / 1 / 6 / 6;
+        grid-area: 5 / 1 / 6 / 7;
         background-image: linear-gradient(to bottom, map-get($map: $fondos, $key: 'centro'), map-get($map: $fondos, $key: 'extremos'));
     }

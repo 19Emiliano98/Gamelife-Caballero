@@ -1,22 +1,30 @@
-/* .flexBox__footer{
+.flexboxFooter{
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    position: relative;
-    margin: 17rem 0rem 0rem 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 14rem 0rem 0rem 5rem;
 }
 .tituloFoot{
     font-family: $subtitulosNav;
     font-size: 2rem;
     text-decoration: underline;
-    position: absolute;
-    margin: 0rem 0rem 4.7rem 0rem;
+    margin: 0rem 0rem 2rem 0rem;
 }
-.icon{
+.flexboxFootericon{
     display: flex;
-    position: absolute;
-    margin: 0rem 0rem 1rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    margin: -6rem 0rem 0rem 0rem;
 }
-.iconSeparacion{
-    margin: 0% 0% 0% 20%;
-} */
+#tituloIcon{
+    position: absolute;
+    font-family: $parrafo;
+    margin: -3rem 0rem 0rem 2rem;
+}
+.espaciadoIcon{
+    margin: 0rem 1.6rem 1rem 0rem;
+}
+.nombreIcon{
+    position: absolute;
+    margin: -1.6rem 0rem 0rem 3rem;
+}

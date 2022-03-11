@@ -1,55 +1,45 @@
+/* General */ 
 .decorado{
     height: 120px;
-    width: 210px;
+    width: 250px;
     object-fit: cover;
     @include bordes;
-}   
-.flexBox__cuerpo{
-    @include display;
-    justify-content: center;
-    align-items: center;
-}
-.separado{
-    margin: -2% 0% 6% 0%;
-}
-.separadoSub{
-    margin: 0% 0% 6% 0%;
-}
-.flexBox__cuerpoNoticias{
-    @include display;
-    margin: 0rem 0rem 0rem 4rem;
-}
-.ubicacionTexto{
-    @include display;
-    position: absolute;
-    margin: -8rem 0rem 0rem 15rem;
-}
-.tituloNoti{
-    font-family: $subtitulosNav;
-    font-size: 2rem;
-    text-decoration: underline;
-    margin: 0rem 0rem 5rem 0rem;
-}
-.tituloVideo{
-    font-family: $subtitulosNav;
-    font-size: 2rem;
-    text-decoration: underline;
-    margin: 0rem 0rem 5rem 0rem;
-}
-.titulosImagen{
-    font-size: 1.4rem;
-    font-family: $subtitulosNav;
-}
+} 
 p{
     font-family: $parrafo;
     font-size: 1rem;
 }
-.renglon{
-    position: absolute;
-    margin: -1rem 0rem 0rem 0rem;
+/* Noticias */
+.flexboxNoticias{
+    display: flex;
+    flex-direction: column;
+    margin: -3rem 0rem 0rem 6rem;
 }
-.entreSeparado{
-    margin: 2% 0% 0% 0%;
+.ubicacionContent{
+    margin: 0rem 0rem 0rem -4rem;
+    padding: 10px;
+}
+.backCard{
+    background-color: map-get($map: $fondos, $key: 'card');
+}
+/* Trailers */
+.flexboxTrailer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -3rem 3rem 0rem 0rem;
+}
+.titulosImagen{
+    font-size: 1.4rem;
+    font-family: $subtitulosNav;
+    text-align: center;
+    margin: 1rem 0rem 1rem 0rem;
+}
+.titulosBody{
+    font-family: $subtitulosNav;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: 0rem 0rem 5rem 0rem;
 }
 .videos{
     @include bordes;

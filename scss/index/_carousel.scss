@@ -1,7 +1,7 @@
 .flexboxCarousel{
     display: flex;
     justify-content: flex-end;
-    margin: 6rem 5rem 9rem 33rem;
+    margin: 0rem 5rem 9rem 33rem;
 }
 .decoradoCarousel{
     object-fit: cover;
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: flex-start;
     position: absolute;
-    margin: 7rem 0rem 0rem 2rem;
+    margin: 4rem 0rem 0rem 2rem;
 }
 .tituloCarousel{
     font-family: $titulo;
@@ -21,10 +21,11 @@
     display: flex;
     justify-content: flex-start;
     position: absolute;
-    margin: 7rem 0rem 0rem 2rem;
+    margin: 5rem 0rem 0rem 5rem;
+    text-align: center;
 }
 .fixTitulo{
-    margin: 2rem 0rem 0rem -19.5rem;
+    margin: 2rem 0rem 0rem -16.5rem;
 }
 .parrafoCarousel{
     margin: 5rem 0rem 0rem 0rem;
