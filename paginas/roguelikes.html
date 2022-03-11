@@ -20,123 +20,167 @@
     <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="gridPadre__sections">
-        <div class="gridHeader__sections">
+    <div class="gridpadreSections">
+        <div class="gridheaderSections">
             <div class="ms-3 mt-3">
                 <img class="icono" class="d-flex position-absolute" src="../imagenes/icono.png">
                 <h1 id="titulo" class="fw-bold d-flex position-absolute mt-1"><a href="../index.html" id="marginTitulo">GameLife</a></h1>
             </div>
-            <!-- class="nav d-flex justify-content-end marginNav fontNav" -->
-            <ul class="nav d-flex justify-content-end marginNav">
-                <li class="nav__li">
-                        <a aria-current="page" href="../paginas/shooters.html">Shooters</a>
-                </li>
-                <li class="nav__li">
-                    <a href="../paginas/sandboxs.html" class="counter">SandBoxs</a>
-                </li>
-                <li class="nav__li">
-                        <a href="../paginas/roguelikes.html" class="counter">Rogue-Likes</a>   
-                </li>
-                <li class="nav__li">
-                        <a href="../paginas/contactanos.html" class="counter">Contáctanos</a>
-                </li>
-            </ul>
+            <div class="flexboxNav">
+                <div><a aria-current="page" href="../paginas/shooters.html" class="navFix borderLeft">Shooters</a></div>
+                <div><a href="../paginas/sandboxs.html" class="navEntrelineas borderCenter">SandBoxs</a></div>
+                <div><a href="../paginas/roguelikes.html" class="navEntrelineas borderCenter">Rogue-Likes</a></div>
+                <div><a href="../paginas/contactanos.html" class="navEntrelineas borderRight">Contáctanos</a></div>
+            </div>
         </div>
-        <div class="gridBody__sections">
-            <div class="flexBody__sections">
+        <div class="gridbodySections">
+            <div class="flexboxBodysections">
                 <h2 class="tituloSection">Rogue-Likes</h2>
-                <article class="separado__sections">
-                    <img src="../imagenes/hades.jpg" class="decoradoPortadas" alt="hades">
-                    <div class="ubicacionTexto__sections">
-                        <h3 class="titulosImagen">Hades</h3>
-                        <p class="separadoDescripcion__section">
-                            Los jugadores controlan a Zagreus, el hijo de Hades, 
-                            mientras intenta escapar<br> del Inframundo para llegar 
-                            al Monte Olimpo, en ocasiones con la ayuda de<br> los 
-                            obsequios que le otorgan los otros olímpicos. 
-                        </p>
-                        <ul class="separadoLista__section">
-                            <li class="entreLinea__section">Modos de Juego: Un jugador.</li>
-                            <li class="entreLinea__section">Fecha de Estreno: 17 de septiembre de 2020.</li>
-                            <li class="entreLinea__section">Desarrolladora(s): Supergiant Games.</li>
-                            <li class="entreLinea__section">Género(s): Rol de Acción, Rogue-Lite.</li>
-                        </ul>
-                    </div>    
+                <article class="card mb-4 backCard ubicacionContent" style="max-width: 800px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../imagenes/hades.jpg" class="img-fluid rounded-start decoradoPortadas" alt="hades">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Hades
+                                </h5>
+                                <p class="card-text">
+                                    Los jugadores controlan a Zagreus, el hijo de Hades, 
+                                    mientras intenta escapar<br> del Inframundo para llegar 
+                                    al Monte Olimpo, en ocasiones con la ayuda de<br> los 
+                                    obsequios que le otorgan los otros olímpicos.
+                                </p>
+                                <ul>
+                                    <li>Modos de Juego: Un jugador.</li>
+                                    <li>Fecha de Estreno: 17 de septiembre de 2020.</li>
+                                    <li>Desarrolladora(s): Supergiant Games.</li>
+                                    <li>Género(s): Rol de Acción, Rogue-Lite.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </article>
-                <article class="separado__sections">
-                    <img src="../imagenes/deadcells.jpg" class="decoradoPortadas" alt="deadcells">
-                    <div class="ubicacionTexto__sections">
-                        <h3 class="titulosImagen">Dead cells</h3>
-                        <p class="separadoDescripcion__section">
-                            En el juego, el jugador asume el papel de una criatura amorfa 
-                            que maneja <br>un cadáver en una mazmorra, a través del cual 
-                            deben luchar para salir.
-                        </p>
-                        <ul class="separadoLista__section">
-                            <li class="entreLinea__section">Modos de Juego: Un jugador.</li>
-                            <li class="entreLinea__section">Fecha de Estreno: 7 de Agosto de 2018.</li>
-                            <li class="entreLinea__section">Desarrolladora(s):  Motion Twin.</li>
-                            <li class="entreLinea__section">Género(s): Rol de Acción, Rogue-Lite.</li>
-                        </ul>
-                    </div> 
+                <article class="card mb-4 backCard ubicacionContent" style="max-width: 800px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../imagenes/deadcells.jpg" class="img-fluid rounded-start decoradoPortadas" alt="deadcells">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Dead cells
+                                </h5>
+                                <p class="card-text">
+                                    En el juego, el jugador asume el papel de una criatura amorfa 
+                                    que maneja <br>un cadáver en una mazmorra, a través del cual 
+                                    deben luchar para salir.
+                                </p>
+                                <ul>
+                                    <li>Modos de Juego: Un jugador.</li>
+                                    <li>Fecha de Estreno: 7 de Agosto de 2018.</li>
+                                    <li>Desarrolladora(s):  Motion Twin.</li>
+                                    <li>Género(s): Rol de Acción, Rogue-Lite.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </article>
-                <article class="separado__sections">
-                    <img src="../imagenes/last.jpg" class="decoradoPortadas" alt="the last afternoon">
-                    <div class="ubicacionTexto__sections">
-                        <h3 class="titulosImagen">The Last Stand: Afthermath</h3>
-                        <p class="separadoDescripcion__section">
-                            Vas a morir, pero no hasta que estés bien y listo.
-                            llega una nueva aventura de acción<br> rogue-Like para un solo 
-                            jugador. Infectado por la aflicción que asoló a la humanidad,<br> 
-                            te propones explorar el apocalipsis y encontrar esperanzas para la humanidad.
-                        </p>
-                        <ul class="separadoLista__section">
-                            <li class="entreLinea__section">Modos de Juego: Un jugador.</li>
-                            <li class="entreLinea__section">Fecha de Estreno: 16 de Noviembre de 2021.</li>
-                            <li class="entreLinea__section">Desarrolladora(s): Artist Games.</li>
-                            <li class="entreLinea__section">Género(s): Acción-Terror, Rogue-Lite.</li>
-                        </ul>
-                    </div> 
+                <article class="card mb-4 backCard ubicacionContent" style="max-width: 800px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../imagenes/last.jpg" class="img-fluid rounded-start decoradoPortadas" alt="the last afternoon">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    The Last Stand: Afthermath
+                                </h5>
+                                <p class="card-text">
+                                    Vas a morir, pero no hasta que estés bien y listo.
+                                    llega una nueva aventura de acción<br> rogue-Like para un solo 
+                                    jugador. Infectado por la aflicción que asoló a la humanidad,<br> 
+                                    te propones explorar el apocalipsis y encontrar esperanzas para la humanidad.
+                                </p>
+                                <ul>
+                                    <li>Modos de Juego: Un jugador.</li>
+                                    <li>Fecha de Estreno: 16 de Noviembre de 2021.</li>
+                                    <li>Desarrolladora(s): Artist Games.</li>
+                                    <li>Género(s): Acción-Terror, Rogue-Lite.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </article>
-                <article class="separado__sections">
-                    <img src="../imagenes/gungeon.webp" class="decoradoPortadas" alt="enter the gungeon">
-                    <div class="ubicacionTexto__sections">
-                        <h3 class="titulosImagen">Enter the Gungeon</h3>
-                        <p class="separadoDescripcion__section">
-                            Enter the Gungeon es un dungeon crawler de tiroteos que sigue 
-                            a una banda <br>de marginados arrepentidos en su intento de conseguir <br> 
-                            el tesoro supremo de la legendaria Armazmorra.
-                        </p>
-                        <ul class="separadoLista__section">
-                            <li class="entreLinea__section">Modos de Juego: Un jugador, Cooperativo.</li>
-                            <li class="entreLinea__section">Fecha de Estreno: 5 de Abril de 2016.</li>
-                            <li class="entreLinea__section">Desarrolladora(s): Dodge Roll y Devolver Digital.</li>
-                            <li class="entreLinea__section">Género(s): Acción, Aventura, Indie, Rogue-Lite.</li>
-                        </ul>
-                    </div> 
+                <article class="card mb-4 backCard ubicacionContent" style="max-width: 800px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../imagenes/gungeon.webp" class="img-fluid rounded-start decoradoPortadas" alt="enter the gungeon">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Enter the Gungeon
+                                </h5>
+                                <p class="card-text">
+                                    Enter the Gungeon es un dungeon crawler de tiroteos que sigue 
+                                    a una banda <br>de marginados arrepentidos en su intento de conseguir <br> 
+                                    el tesoro supremo de la legendaria Armazmorra.
+                                </p>
+                                <ul>
+                                    <li>Modos de Juego: Un jugador, Cooperativo.</li>
+                                    <li>Fecha de Estreno: 5 de Abril de 2016.</li>
+                                    <li>Desarrolladora(s): Dodge Roll y Devolver Digital.</li>
+                                    <li>Género(s): Acción, Aventura, Indie, Rogue-Lite.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </article>
             </div>
         </div>
-        <div class="gridFooter__sections">
-            <div class="flexFooter__section">
-            <h2 class="tituloFoot titulosMobile">También puedes encontrarnos en...</h2>
-                <div class="icon"> 
-                    <div class="iconSeparacion">
-                    <a href="https://www.instagram.com" target="_blank"><i 
+        <div class="gridvaloracionesSections">
+            valoraciones
+        </div>
+        <div class="gridfooterSections">
+            <div class="flexboxFooter">
+                <h2 class="tituloFoot">Sobre nosotros...</h2>
+                <p>
+                    Estoy presentando mi primer proyecto como<br> alumno de
+                    Coderhouse, y mi objetivo es brindar<br> información 
+                    en el mundo del Gaming.
+                </p>
+            </div>
+            <div class="flexboxFootericon">
+                <h5 id="tituloIcon">Síguenos</h5>
+                <a class="espaciadoIcon" href="https://www.instagram.com" target="_blank">
+                    <i 
                         class="fab fa-instagram" 
-                        style="font-size:27px;"></i></a>
-                    </div>
-                    <div class="iconSeparacion">        
-                    <a href="https://www.twitter.com" target="_blank"><i 
+                        style="font-size:27px;"
+                    ></i>
+                    <p class="nombreIcon">
+                        Instagram
+                    </p>
+                </a>
+                <a class="espaciadoIcon" href="https://www.twitter.com" target="_blank">
+                    <i 
                         class="fab fa-twitter" 
-                        style="font-size:27px;"></i></a>
-                    </div>
-                    <div class="iconSeparacion"></div>
-                    <a href="https://www.facebook.com" target="_blank"><i 
+                        style="font-size:27px;"
+                    ></i>
+                    <p class="nombreIcon">
+                        Twitter
+                    </p>
+                </a>
+                <a class="espaciadoIcon" href="https://www.facebook.com" target="_blank">
+                    <i 
                         class="fab fa-facebook" 
-                        style="font-size:27px;"></i></a>
-                    </div>
-                </div>                
+                        style="font-size:27px;"
+                    ></i>
+                    <p class="nombreIcon">
+                        Facebook
+                    </p>
+                </a>
             </div>
         </div>
     </div>

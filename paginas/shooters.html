@@ -20,116 +20,164 @@
     <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="gridPadre__sections">
-        <div class="gridHeader__sections">
+    <div class="gridpadreSections">
+        <div class="gridheaderSections">
             <div class="ms-3 mt-3">
                 <img class="icono" class="d-flex position-absolute" src="../imagenes/icono.png">
                 <h1 id="titulo" class="fw-bold d-flex position-absolute mt-1"><a href="../index.html" id="marginTitulo">GameLife</a></h1>
             </div>
-            <!-- class="nav d-flex justify-content-end marginNav fontNav" -->
-            <ul class="nav d-flex justify-content-end marginNav">
-                <li class="nav__li">
-                        <a aria-current="page" href="../paginas/shooters.html">Shooters</a>
-                </li>
-                <li class="nav__li">
-                    <a href="../paginas/sandboxs.html" class="counter">SandBoxs</a>
-                </li>
-                <li class="nav__li">
-                        <a href="../paginas/roguelikes.html" class="counter">Rogue-Likes</a>   
-                </li>
-                <li class="nav__li">
-                        <a href="../paginas/contactanos.html" class="counter">Contáctanos</a>
-                </li>
-            </ul>
+            <div class="flexboxNav">
+                <div><a aria-current="page" href="../paginas/shooters.html" class="navFix borderLeft">Shooters</a></div>
+                <div><a href="../paginas/sandboxs.html" class="navEntrelineas borderCenter">SandBoxs</a></div>
+                <div><a href="../paginas/roguelikes.html" class="navEntrelineas borderCenter">Rogue-Likes</a></div>
+                <div><a href="../paginas/contactanos.html" class="navEntrelineas borderRight">Contáctanos</a></div>
+            </div>
         </div>
-        <div class="gridBody__sections">
-            <div class="flexBody__sections">
+        <div class="gridbodySections">
+            <div class="flexboxBodysections">
                 <h2 class="tituloSection">Shooters</h2>
-                <article class="separado__sections">
-                    <img src="../imagenes/cod.jpg" class="decoradoPortadas" alt="call of duty">
-                    <div class="ubicacionTexto__sections">
-                        <h3 class="titulosImagen">Call of Duty: Advanced Warfare</h3>
-                        <p class="separadoDescripcion__section">
-                            El juego está ambientado en un futuro en el que tendrá lugar la tecnología y armamento avanzado,<br>
-                            con trajes que dan habilidades sobrehumanas a los soldados.
-                        </p>
-                        <ul class="separadoLista__section">
-                            <li class="entreLinea__section">Modos de Juego: Un jugador,Multijugador,Cooperativo.</li>
-                            <li class="entreLinea__section">Fecha de Estreno: 4 de Octubre de 2014.</li>
-                            <li class="entreLinea__section">Desarrolladora(s): Sledgehammer Games y HighMoon Studios.</li>
-                            <li class="entreLinea__section">Género(s): Disparos en primera persona, Acción.</li>
-                        </ul>
-                    </div>    
+                <article class="card mb-4 backCard ubicacionContent" style="max-width: 800px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../imagenes/cod.jpg" class="img-fluid rounded-start decoradoPortadas" alt="call of duty">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Call of Duty: Advanced Warfare
+                                </h5>
+                                <p class="card-text">
+                                    El juego está ambientado en un futuro en el que tendrá lugar la tecnología y armamento avanzado,<br>
+                                    con trajes que dan habilidades sobrehumanas a los soldados.
+                                </p>
+                                <ul>
+                                    <li>Modos de Juego: Un jugador,Multijugador,Cooperativo.</li>
+                                    <li>Fecha de Estreno: 4 de Octubre de 2014.</li>
+                                    <li>Desarrolladora(s): Sledgehammer Games y HighMoon Studios.</li>
+                                    <li>Género(s): Disparos en primera persona, Acción.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </article>
-                <article class="separado__sections">
-                    <img src="../imagenes/doom.jpg" class="decoradoPortadas" alt="doom">
-                    <div class="ubicacionTexto__sections">
-                        <h3 class="titulosImagen">DOOM: Eternal</h3>
-                        <p class="separadoDescripcion__section">Las fuerzas del Inframundo han comenzado a invadir la Tierra,
-                            y mientras la Corporación Aerospacial<br> de la Unión lucha por defenderla, 
-                            ponte en la piel del Slayer y enfrenta a nuevos enemigos infernales<br> los cuales no temen a nada,
-                            salvo a ti ...</p>
-                        <ul class="separadoLista__section">
-                            <li class="entreLinea__section">Modos de Juego: Un jugador,Multijugador.</li>
-                            <li class="entreLinea__section">Fecha de Estreno: 20 de Marzo del 2020.</li>
-                            <li class="entreLinea__section">Desarrolladora(s): Bethesda Softworks y ID Software.</li>
-                            <li class="entreLinea__section">Género(s): Disparos en primera persona, Acción.</li>
-                        </ul>
-                    </div>    
+                <article class="card mb-4 backCard ubicacionContent" style="max-width: 800px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../imagenes/doom.jpg" class="img-fluid rounded-start decoradoPortadas" alt="doom">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    DOOM: Eternal
+                                </h5>
+                                <p class="card-text">
+                                    Las fuerzas del Inframundo han comenzado a invadir la Tierra,
+                                    y mientras la Corporación Aerospacial<br> de la Unión lucha por defenderla, 
+                                    ponte en la piel del Slayer y enfrenta a nuevos enemigos infernales<br> los cuales no temen a nada,
+                                    salvo a ti ...
+                                </p>
+                                <ul>
+                                    <li>Modos de Juego: Un jugador,Multijugador.</li>
+                                    <li>Fecha de Estreno: 20 de Marzo del 2020.</li>
+                                    <li>Desarrolladora(s): Bethesda Softworks y ID Software.</li>
+                                    <li>Género(s): Disparos en primera persona, Acción.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </article>
-                <article class="separado__sections">
-                    <img src="../imagenes/halo.jpg" class="decoradoPortadas" alt="halo">
-                    <div class="ubicacionTexto__sections">
-                        <h3 class="titulosImagen">Halo : Infinite</h3>
-                        <p class="separadoDescripcion__section">El jefe Maestro el gran héroe de la humanidad y personaje principal de la saga <br>
-                            se enfrentara a un grupo sanguinario y temible que alguna vez fueron parte del Covenant <br>
-                            llamados los Desterrados.</p>
-                        <ul class="separadoLista__section">
-                            <li class="entreLinea__section">Modos de Juego: Un jugador,Multijugador.</li>
-                            <li class="entreLinea__section">Fecha de Estreno: 25 de agosto de 2021.</li>
-                            <li class="entreLinea__section">Desarrolladora(s): Bungie Studios y 343 Industries.</li>
-                            <li class="entreLinea__section">Género(s): Disparos en primera persona, Ciencia Ficción.</li>
-                        </ul>
-                    </div>    
-                </article>
-                <article class="separado__sections">
-                    <img src="../imagenes/gears.jpg" class="decoradoPortadas" alt="gears">
-                    <div class="ubicacionTexto__sections">
-                        <h3 class="titulosImagen">Gears of War 5</h3>
-                        <p class="separadoDescripcion__section">
-                            Gears 5 se centra en Kait Díaz, una forastera de ascendencia Locust. Como Kait,<br> 
-                            el jugador debe descubrir los orígenes del Enjambre (Swarm) y la familia de Kait.
-                        </p>
-                        <ul class="separadoLista__section">
-                            <li class="entreLinea__section">Modos de Juego: Un jugador.</li>
-                            <li class="entreLinea__section">Fecha de Estreno: 10 de septiembre de 2019.</li>
-                            <li class="entreLinea__section">Desarrolladora(s):  The Coalition.</li>
-                            <li class="entreLinea__section">Género(s): Disparos en tercera persona, Ciencia Ficción.</li>
-                        </ul>
-                    </div>    
+                <article class="card mb-4 backCard ubicacionContent" style="max-width: 800px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../imagenes/halo.jpg" class="img-fluid rounded-start decoradoPortadas" alt="halo">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Halo : Infinite
+                                </h5>
+                                <p class="card-text">
+                                    El jefe Maestro el gran héroe de la humanidad y personaje principal de la saga <br>
+                                    se enfrentara a un grupo sanguinario y temible que alguna vez fueron parte del Covenant <br>
+                                    llamados los Desterrados.
+                                </p>
+                                <ul>
+                                    <li>Modos de Juego: Un jugador,Multijugador.</li>
+                                    <li>Fecha de Estreno: 25 de agosto de 2021.</li>
+                                    <li>Desarrolladora(s): Bungie Studios y 343 Industries.</li>
+                                    <li>Género(s): Disparos en primera persona, Ciencia Ficción.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>    
+                <article class="card mb-4 backCard ubicacionContent" style="max-width: 800px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../imagenes/gears.jpg" class="img-fluid rounded-start decoradoPortadas" alt="gears of war">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Gears of War 5
+                                </h5>
+                                <p class="card-text">
+                                    Gears 5 se centra en Kait Díaz, una forastera de ascendencia Locust. Como Kait, 
+                                    el jugador debe descubrir los orígenes del Enjambre (Swarm) y la familia de Kait.
+                                </p>
+                                <ul>
+                                    <li>Modos de Juego: Un jugador.</li>
+                                    <li>Fecha de Estreno: 10 de septiembre de 2019.</li>
+                                    <li>Desarrolladora(s):  The Coalition.</li>
+                                    <li>Género(s): Disparos en tercera persona, Ciencia Ficción.</li>    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </article>
             </div>
         </div>
-        <div class="gridFooter__sections">
-            <div class="flexFooter__section">
-            <h2 class="tituloFoot titulosMobile">También puedes encontrarnos en...</h2>
-                <div class="icon"> 
-                    <div class="iconSeparacion">
-                    <a href="https://www.instagram.com" target="_blank"><i 
+        <div class="gridvaloracionesSections">
+            valoraciones
+        </div>
+        <div class="gridfooterSections">
+            <div class="flexboxFooter">
+                <h2 class="tituloFoot">Sobre nosotros...</h2>
+                <p>
+                    Estoy presentando mi primer proyecto como<br> alumno de
+                    Coderhouse, y mi objetivo es brindar<br> información 
+                    en el mundo del Gaming.
+                </p>
+            </div>
+            <div class="flexboxFootericon">
+                <h5 id="tituloIcon">Síguenos</h5>
+                <a class="espaciadoIcon" href="https://www.instagram.com" target="_blank">
+                    <i 
                         class="fab fa-instagram" 
-                        style="font-size:27px;"></i></a>
-                    </div>
-                    <div class="iconSeparacion">        
-                    <a href="https://www.twitter.com" target="_blank"><i 
+                        style="font-size:27px;"
+                    ></i>
+                    <p class="nombreIcon">
+                        Instagram
+                    </p>
+                </a>
+                <a class="espaciadoIcon" href="https://www.twitter.com" target="_blank">
+                    <i 
                         class="fab fa-twitter" 
-                        style="font-size:27px;"></i></a>
-                    </div>
-                    <div class="iconSeparacion"></div>
-                    <a href="https://www.facebook.com" target="_blank"><i 
+                        style="font-size:27px;"
+                    ></i>
+                    <p class="nombreIcon">
+                        Twitter
+                    </p>
+                </a>
+                <a class="espaciadoIcon" href="https://www.facebook.com" target="_blank">
+                    <i 
                         class="fab fa-facebook" 
-                        style="font-size:27px;"></i></a>
-                    </div>
-                </div>                
+                        style="font-size:27px;"
+                    ></i>
+                    <p class="nombreIcon">
+                        Facebook
+                    </p>
+                </a>
             </div>
         </div>
     </div>
