@@ -1,7 +1,8 @@
 .flexboxBodysections{
     display: flex;
     flex-direction: column;
-    margin: 0rem 0rem 0rem 6rem;
+    align-items: center;
+    margin: -11rem 0rem 0rem 0rem;
 }
 .decoradoPortadas{
     height: 298px;
@@ -24,7 +25,8 @@
     font-family: $subtitulosNav;
     font-size: 2rem;
     text-decoration: underline;
-    margin: -11rem 0rem 5rem 35rem;
+    text-align: center;
+    margin: -11rem 0rem 5rem 0rem;
 }
 .separadoLista__section{
     @include display;

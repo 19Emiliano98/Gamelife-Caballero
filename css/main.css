@@ -49,11 +49,7 @@
   background-image: linear-gradient(to top, #001825, #0c0c0c); }
 
 .gridbodySections {
-  grid-area: 2 / 1 / 4 / 4;
-  margin: 3rem 0rem 0rem 0rem; }
-
-.gridvaloracionesSections {
-  grid-area: 2 / 4 / 4 / 5; }
+  grid-area: 2 / 1 / 4 / 5; }
 
 .gridfooterSections {
   grid-area: 4 / 1 / 5 / 5;
@@ -251,20 +247,20 @@ p {
 .flexboxFooter {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin: 16rem 0rem 0rem 5rem; }
+  align-items: center;
+  margin: 16rem 0rem 0rem -25rem; }
+
+.flexboxFootericon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -6.5rem 0rem 0rem 20rem; }
 
 .tituloFoot {
   font-family: "Oswald", "sans-serif";
   font-size: 2rem;
   text-decoration: underline;
   margin: 0rem 0rem 2rem 0rem; }
-
-.flexboxFootericon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: -6rem 0rem 0rem 0rem; }
 
 #tituloIcon {
   position: absolute;
@@ -282,7 +278,8 @@ p {
 .flexboxBodysections {
   display: flex;
   flex-direction: column;
-  margin: 0rem 0rem 0rem 6rem; }
+  align-items: center;
+  margin: -11rem 0rem 0rem 0rem; }
 
 .decoradoPortadas {
   height: 298px;
@@ -306,7 +303,8 @@ p {
   font-family: "Oswald", "sans-serif";
   font-size: 2rem;
   text-decoration: underline;
-  margin: -11rem 0rem 5rem 35rem; }
+  text-align: center;
+  margin: -11rem 0rem 5rem 0rem; }
 
 .separadoLista__section {
   display: flex;
@@ -328,11 +326,35 @@ p {
 .separadoDescripcion__section {
   margin: 0.5rem 0rem 0rem 0rem; }
 
-.flexFooter__section {
+.flexboxFooter {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  margin: 20.3rem 0rem 0rem 2rem; }
+  flex-direction: column;
+  align-items: center;
+  margin: 16rem 0rem 0rem -25rem; }
+
+.flexboxFootericon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -6.5rem 0rem 0rem 20rem; }
+
+.tituloFoot {
+  font-family: "Oswald", "sans-serif";
+  font-size: 2rem;
+  text-decoration: underline;
+  margin: 0rem 0rem 2rem 0rem; }
+
+#tituloIcon {
+  position: absolute;
+  font-family: "Play", sans-serif;
+  margin: -3rem 0rem 0rem 2rem; }
+
+.espaciadoIcon {
+  margin: 0rem 1.6rem 1rem 0rem; }
+
+.nombreIcon {
+  position: absolute;
+  margin: -1.6rem 0rem 0rem 3rem; }
 
 /* media queries */
 /* media */

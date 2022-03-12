@@ -8,18 +8,14 @@
     color: white;
     }
     
-    .gridheaderSections { 
+    .gridheaderSections{ 
         grid-area: 1 / 1 / 2 / 5;
         background-image: linear-gradient(to top, map-get($map: $fondos, $key: 'centro'), map-get($map: $fondos, $key: 'extremos')); 
     }
-    .gridbodySections {
-        grid-area: 2 / 1 / 4 / 4; 
-        margin: 3rem 0rem 0rem 0rem;
+    .gridbodySections{
+        grid-area: 2 / 1 / 4 / 5; 
     }
-    .gridvaloracionesSections{
-        grid-area: 2 / 4 / 4 / 5;
-    }
-    .gridfooterSections { 
+    .gridfooterSections{ 
         grid-area: 4 / 1 / 5 / 5;
         margin: 6.3rem 0rem 0rem 0rem;
         background-image: linear-gradient(to bottom, map-get($map: $fondos, $key: 'centro'), map-get($map: $fondos, $key: 'extremos'));
