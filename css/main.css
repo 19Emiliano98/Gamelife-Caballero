@@ -518,23 +518,32 @@ p {
     font-size: 1.3rem;
     margin: 5rem 0rem 0rem 2rem; }
   /* Paginas de Secciones*/
-  .decoradoPortadas {
-    height: 200px;
-    width: 140px;
-    object-fit: cover;
-    margin: -2rem 0rem 0rem 0rem;
-    border: #301b1b solid; }
-  .separado__sections {
-    margin: 0rem 0rem 5rem 0rem; }
-  .flexBody__sections {
+  .flexboxBodysections {
     display: flex;
     flex-direction: column;
-    margin: -5rem 0rem 0rem 2rem; }
+    align-items: center;
+    margin: -18rem 0rem 0rem 6rem; }
   .tituloSection {
-    font-size: 1.3rem;
-    margin: -14rem 0rem 5rem 9.5rem; }
-  .ubicacionTexto__sections {
-    margin: -12.5rem 0rem 0rem 9.5rem; }
-  .separadoLista__section {
-    margin: 7rem 0rem 0rem -0.5rem;
-    font-size: 0.4rem; } }
+    font-size: 1.6rem;
+    margin: 0rem 0rem 3.5rem -5.5rem; }
+  .titulosJuegos {
+    font-family: "Oswald", "sans-serif";
+    font-size: 1rem; }
+  .textoJuegos {
+    font-family: "Play", sans-serif; }
+  .listadoJuegos {
+    font-family: "Play", sans-serif;
+    font-size: 0.6rem; }
+  .contenidoJuegos {
+    margin: -16.5rem 0rem 0rem 10.5rem; }
+  .decoradoPortadas {
+    height: 250px;
+    width: 170px;
+    object-fit: cover;
+    border: 3px #1d1919 solid;
+    margin: 0rem 0rem 0rem 0rem; }
+  /* FooterSections */
+  .flexboxFootermobile {
+    margin: 3rem 0rem 0rem 0rem; }
+  .flexboxFootericonmobile {
+    margin: 7rem 0rem 0rem -4rem; } }
