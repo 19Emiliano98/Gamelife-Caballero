@@ -521,11 +521,11 @@ p {
   .flexboxBodysections {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0rem 0rem 0rem 6rem; }
+    position: absolute;
+    margin: 2rem 0rem 0rem 6rem; }
   .tituloSection {
     font-size: 1.6rem;
-    margin: -18rem 0rem 3.5rem 0rem; }
+    margin: -16rem 0rem 0.5rem 0rem; }
   .titulosJuegos {
     font-family: "Oswald", "sans-serif";
     font-size: 1rem; }
@@ -535,15 +535,15 @@ p {
     font-family: "Play", sans-serif;
     font-size: 0.6rem; }
   .contenidoJuegos {
-    margin: -16.5rem 0rem 0rem 10.5rem; }
+    margin: -14.5rem 0rem 0rem 8.9rem; }
   .decoradoPortadas {
-    height: 250px;
-    width: 170px;
+    height: 220px;
+    width: 150px;
     object-fit: cover;
     border: 3px #1d1919 solid;
     margin: 0rem 0rem 0rem 0rem; }
   /* FooterSections */
   .flexboxFootermobile {
-    margin: 3rem 0rem 0rem 0rem; }
+    margin: 5rem 0rem 0rem 0rem; }
   .flexboxFootericonmobile {
     margin: 7rem 0rem 0rem -4rem; } }
