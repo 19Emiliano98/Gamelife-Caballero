@@ -5,6 +5,12 @@
     object-fit: cover;
     @include bordes;
 } 
+.titulosBody{
+    font-family: $subtitulosNav;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: 0rem 0rem 5rem 0rem;
+}
 p{
     font-family: $parrafo;
     font-size: 1rem;
@@ -34,12 +40,6 @@ p{
     font-family: $subtitulosNav;
     text-align: center;
     margin: 1rem 0rem 1rem 0rem;
-}
-.titulosBody{
-    font-family: $subtitulosNav;
-    font-size: 2rem;
-    text-decoration: underline;
-    margin: 0rem 0rem 5rem 0rem;
 }
 .videos{
     @include bordes;
