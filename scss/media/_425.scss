@@ -1,5 +1,5 @@
 /* media */
-@media (min-width: 425px){
+@media (max-width: 425px){
     /* Grid mobile */
     /* Grid Index */
     .gridPadre {
@@ -97,7 +97,7 @@
         display: flex;
         justify-content: center;
         position: absolute;
-        margin: -29rem 0rem 0rem 3rem;
+        margin: -29rem 0rem 0rem 3.3rem;
     }
     .flexboxTextcarousel{
         display: flex;
@@ -107,7 +107,8 @@
         margin: 22rem 0rem 0rem -12rem;
     }
     .parrafoCarousel{
-        margin: 5rem 0rem 0rem 0rem;
+        font-size: 0.75rem;
+        margin: 5rem 0rem 0rem -1.5rem;
     }
 
     /* Body */
@@ -137,6 +138,7 @@
     }
     .textoNoticias{
         position: absolute;
+        font-size: 0.6rem;
         margin: -1.6rem 0rem 0rem 6.4rem;
     }
     .titulosImagen{
@@ -181,6 +183,10 @@
         align-items: center;
         margin: 15rem 0rem 0rem 0rem;
     }
+    .textFooter{
+        font-size: 0.8rem;
+        margin: 1rem 0rem 0rem 0rem;
+    }
     .flexboxFootericon{
         display: flex;
         flex-direction: column;
@@ -193,7 +199,7 @@
         margin: -3rem 0rem 0rem 4rem;
     }
     .textIcon{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .tituloFoot{
         font-family: $subtitulosNav;
@@ -211,12 +217,13 @@
     .flexboxBodysections{
         display: flex;
         flex-direction: column;
-        position: absolute;
+        position: relative;
         margin: 2rem 0rem 0rem 6rem;
     }
     .tituloSection{
         font-size: 1.6rem;
-        margin: -16rem 0rem 0.5rem 0rem;
+        position: relative;
+        margin: -20rem 0rem 0.5rem 0rem;
     }
     .titulosJuegos{
         font-family: $subtitulosNav;
@@ -242,7 +249,7 @@
 
     /* FooterSections */
     .flexboxFootermobile{
-        margin: 5rem 0rem 0rem 0rem;
+        margin: 0rem 0rem 0rem 0rem;
     }
     .flexboxFootericonmobile{
         margin: 7rem 0rem 0rem -4rem;

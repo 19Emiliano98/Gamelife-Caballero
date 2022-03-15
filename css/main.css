@@ -71,7 +71,7 @@
 
 .bodyContacto {
   grid-area: 2 / 1 / 3 / 4;
-  margin: -10rem 0rem 0rem 0rem; }
+  margin: 0rem 0rem 0rem 0rem; }
 
 .footerContacto {
   grid-area: 3 / 1 / 4 / 4;
@@ -357,8 +357,200 @@ p {
   margin: -1.6rem 0rem 0rem 3rem; }
 
 /* media queries */
+@media (max-width: 768px) {
+  /* Grid mobile */
+  /* Grid Index */
+  .gridPadre {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #001825;
+    color: white; }
+  .gridHeader {
+    grid-area: 1 / 1 / 2 / 7;
+    background-color: #0c0c0c; }
+  .gridCarousel {
+    grid-area: 2 / 1 / 3 / 7;
+    background-image: linear-gradient(to top, #001825, #0c0c0c); }
+  .gridNoticias {
+    grid-area: 3 / 1 / 4 / 7; }
+  .gridTrailers {
+    grid-area: 4 / 1 / 5 / 7; }
+  .gridFooter {
+    grid-area: 5 / 1 / 6 / 7;
+    background-image: linear-gradient(to bottom, #001825, #0c0c0c); }
+  /* Grid Section */
+  .gridPadre__sections {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #001825;
+    color: white; }
+  .gridHeader__sections {
+    grid-area: 1 / 1 / 3 / 6;
+    background-image: linear-gradient(to top, #001825, #0c0c0c); }
+  .gridBody__sections {
+    grid-area: 2 / 1 / 6 / 6;
+    margin: 10rem 0rem 0rem 0rem; }
+  .gridFooter__sections {
+    grid-area: 5 / 1 / 6 / 6;
+    background-image: linear-gradient(to bottom, #001825, #0c0c0c); }
+  /* Titulo Gamelife*/
+  #titulo {
+    font-size: 4rem; }
+  #marginTitulo {
+    margin: 1rem 0rem 0rem 15.5rem; }
+  .icono {
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem 0rem 0rem 11rem; }
+  /* Navbar */
+  .flexboxNav {
+    display: flex;
+    justify-content: center;
+    margin: 12rem 0rem 0rem 0rem; }
+  .flexboxNav div {
+    font-size: 1.4rem;
+    font-family: "Oswald", "sans-serif"; }
+  /* Carousel */
+  .flexboxCarousel {
+    display: flex;
+    justify-content: center;
+    margin: 6rem 8rem 0rem 8rem; }
+  .tituloCarousel {
+    font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
+    font-size: 1.7rem;
+    margin: 40rem 0rem 0rem 10.8rem; }
+  .flexboxTitulocarousel {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: -50rem 0rem 0rem -3rem; }
+  .flexboxTextcarousel {
+    margin: -13rem 0rem 0rem 12.1rem; }
+  .fixTitulo {
+    margin: 43rem 0rem 0rem -20rem; }
+  .parrafoCarousel {
+    font-size: 1rem;
+    margin: 11rem 0rem 0rem 0rem; }
+  /* Body */
+  .flexboxNoticias {
+    display: flex;
+    flex-direction: column;
+    margin: -24rem 0rem 0rem 6rem; }
+  .ubicacionContent {
+    margin: 0rem 1.5rem 0rem -4.5rem;
+    padding: 25px; }
+  .backCard {
+    background-color: #24526b; }
+  .titulosBody {
+    font-family: "Oswald", "sans-serif";
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin: 0rem 0rem 10rem 0rem; }
+  .titulosNoticias {
+    font-size: 1rem;
+    font-family: "Oswald", "sans-serif";
+    position: absolute;
+    margin: -2rem 0rem 0rem -0.5rem; }
+  .textoNoticias {
+    position: absolute;
+    margin: 1rem 0rem 0rem -0.5rem;
+    font-size: 0.8rem; }
+  .decorado {
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+    border: 1px #301b1b solid;
+    margin: -1rem 0rem -1rem -1rem; }
+  #titulonoticiasMobile {
+    font-size: 1.6rem;
+    margin: 0rem 0rem 3rem 12.6rem; }
+  #titulotrailersMobile {
+    font-size: 1.6rem;
+    margin: 0rem 0rem 2rem 0rem; }
+  p {
+    font-size: 0.6rem; }
+  .flexboxTrailer {
+    margin: -11rem 0rem 0rem 0rem; }
+  .titulosImagenmobile {
+    font-size: 1.2rem;
+    margin: 1rem 0rem 1rem 0rem; }
+  /* Contenido de Footer */
+  .flexboxFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 13rem 0rem 0rem 6rem; }
+  .textFooter {
+    font-size: 0.9rem;
+    margin: 1rem 0rem 0rem 0rem; }
+  .flexboxFootericon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: -5.2rem 12rem 0rem 0rem; }
+  #tituloIcon {
+    position: absolute;
+    font-family: "Play", sans-serif;
+    font-size: 1rem;
+    margin: -3rem -2.1rem 0rem 0rem; }
+  .textIcon {
+    font-size: 0.8rem; }
+  .tituloFoot {
+    font-family: "Oswald", "sans-serif";
+    font-size: 1.3rem;
+    text-decoration: underline;
+    position: absolute;
+    margin: -3rem 0rem 4.7rem 0rem; }
+  .tituloFootcontacto {
+    font-size: 1.3rem;
+    margin: 5rem 0rem 0rem 2rem; }
+  /* Paginas de Secciones*/
+  .flexboxBodysections {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 2rem 0rem 0rem 6rem; }
+  .tituloSection {
+    font-size: 1.6rem;
+    margin: -5rem 0rem 0.5rem 0rem; }
+  .titulosJuegos {
+    font-family: "Oswald", "sans-serif";
+    font-size: 1.4rem; }
+  .textoJuegos {
+    font-family: "Play", sans-serif;
+    font-size: 0.8rem; }
+  .listadoJuegos {
+    font-family: "Play", sans-serif;
+    font-size: 0.8rem; }
+  .contenidoJuegos {
+    margin: -1rem 0rem 0rem -4rem; }
+  .decoradoPortadas {
+    height: 220px;
+    width: 150px;
+    object-fit: cover;
+    border: 3px #1d1919 solid;
+    margin: 0rem 0rem 0rem 0rem; }
+  /* Seccion de contactos */
+  .flexboxContacto {
+    display: flex;
+    flex-direction: column;
+    margin: -5rem 0rem 0rem 0rem; }
+  /* FooterSections */
+  .flexboxFootermobile {
+    margin: 15rem 0rem 0rem 8rem; }
+  .flexboxFootericonmobile {
+    margin: -4.5rem 12rem 3rem 0rem; }
+  .textFooter {
+    font-size: 0.8rem; } }
+
 /* media */
-@media (min-width: 425px) {
+@media (max-width: 425px) {
   /* Grid mobile */
   /* Grid Index */
   .gridPadre {
@@ -433,14 +625,15 @@ p {
     display: flex;
     justify-content: center;
     position: absolute;
-    margin: -29rem 0rem 0rem 3rem; }
+    margin: -29rem 0rem 0rem 3.3rem; }
   .flexboxTextcarousel {
     display: flex;
     margin: -8rem 0rem 0rem 6.2rem; }
   .fixTitulo {
     margin: 22rem 0rem 0rem -12rem; }
   .parrafoCarousel {
-    margin: 5rem 0rem 0rem 0rem; }
+    font-size: 0.75rem;
+    margin: 5rem 0rem 0rem -1.5rem; }
   /* Body */
   .flexboxNoticias {
     display: flex;
@@ -463,6 +656,7 @@ p {
     margin: -3.7rem 0rem 0rem 6.3rem; }
   .textoNoticias {
     position: absolute;
+    font-size: 0.6rem;
     margin: -1.6rem 0rem 0rem 6.4rem; }
   .titulosImagen {
     font-size: 1.4rem;
@@ -496,6 +690,9 @@ p {
     flex-direction: column;
     align-items: center;
     margin: 15rem 0rem 0rem 0rem; }
+  .textFooter {
+    font-size: 0.8rem;
+    margin: 1rem 0rem 0rem 0rem; }
   .flexboxFootericon {
     display: flex;
     flex-direction: column;
@@ -506,7 +703,7 @@ p {
     font-family: "Play", sans-serif;
     margin: -3rem 0rem 0rem 4rem; }
   .textIcon {
-    font-size: 1rem; }
+    font-size: 0.8rem; }
   .tituloFoot {
     font-family: "Oswald", "sans-serif";
     font-size: 1.3rem;
@@ -520,11 +717,12 @@ p {
   .flexboxBodysections {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     margin: 2rem 0rem 0rem 6rem; }
   .tituloSection {
     font-size: 1.6rem;
-    margin: -16rem 0rem 0.5rem 0rem; }
+    position: relative;
+    margin: -20rem 0rem 0.5rem 0rem; }
   .titulosJuegos {
     font-family: "Oswald", "sans-serif";
     font-size: 1rem; }
@@ -543,164 +741,6 @@ p {
     margin: 0rem 0rem 0rem 0rem; }
   /* FooterSections */
   .flexboxFootermobile {
-    margin: 5rem 0rem 0rem 0rem; }
+    margin: 0rem 0rem 0rem 0rem; }
   .flexboxFootericonmobile {
     margin: 7rem 0rem 0rem -4rem; } }
-
-@media (min-width: 768px) {
-  /* Grid mobile */
-  /* Grid Index */
-  .gridPadre {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    background-color: #001825;
-    color: white; }
-  .gridHeader {
-    grid-area: 1 / 1 / 2 / 7;
-    background-color: #0c0c0c; }
-  .gridCarousel {
-    grid-area: 2 / 1 / 3 / 7;
-    background-image: linear-gradient(to top, #001825, #0c0c0c); }
-  .gridNoticias {
-    grid-area: 3 / 1 / 4 / 7; }
-  .gridTrailers {
-    grid-area: 4 / 1 / 5 / 7; }
-  .gridFooter {
-    grid-area: 5 / 1 / 6 / 7;
-    background-image: linear-gradient(to bottom, #001825, #0c0c0c); }
-  /* Grid Section */
-  .gridPadre__sections {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    background-color: #001825;
-    color: white; }
-  .gridHeader__sections {
-    grid-area: 1 / 1 / 3 / 6;
-    background-image: linear-gradient(to top, #001825, #0c0c0c); }
-  .gridBody__sections {
-    grid-area: 2 / 1 / 6 / 6;
-    margin: 10rem 0rem 0rem 0rem; }
-  .gridFooter__sections {
-    grid-area: 5 / 1 / 6 / 6;
-    background-image: linear-gradient(to bottom, #001825, #0c0c0c); }
-  /* Titulo Gamelife*/
-  #titulo {
-    font-size: 4rem; }
-  #marginTitulo {
-    margin: 1rem 0rem 0rem 15.5rem; }
-  .icono {
-    height: 5rem;
-    width: 5rem;
-    margin: 1rem 0rem 0rem 11rem; }
-  /* Navbar */
-  .flexboxNav {
-    display: flex;
-    justify-content: center;
-    margin: 12rem 0rem 0rem 0rem; }
-  .flexboxNav div {
-    font-size: 1.4rem;
-    font-family: "Oswald", "sans-serif"; }
-  /* Carousel */
-  .flexboxCarousel {
-    display: flex;
-    justify-content: center;
-    margin: 0rem 8rem 0rem 8rem; }
-  .tituloCarousel {
-    font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
-    font-size: 1.7rem;
-    margin: 35rem 0rem 0rem 10.8rem; }
-  .flexboxTitulocarousel {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    margin: -50rem 0rem 0rem -3rem; }
-  .flexboxTextcarousel {
-    margin: -13rem 0rem 0rem 12.1rem; }
-  .fixTitulo {
-    margin: 37.5rem 0rem 0rem -20rem; }
-  .parrafoCarousel {
-    font-size: 1rem;
-    margin: 5rem 0rem 0rem 0rem; }
-  /* Body */
-  .flexboxNoticias {
-    display: flex;
-    flex-direction: column;
-    margin: -32rem 0rem 0rem 6rem; }
-  .ubicacionContent {
-    margin: 0rem 1.5rem 0rem -4.5rem;
-    padding: 25px; }
-  .backCard {
-    background-color: #24526b; }
-  .titulosBody {
-    font-family: "Oswald", "sans-serif";
-    font-size: 1.2rem;
-    text-decoration: underline;
-    margin: 0rem 0rem 10rem 0rem; }
-  .titulosNoticias {
-    font-size: 1rem;
-    font-family: "Oswald", "sans-serif";
-    position: absolute;
-    margin: -2rem 0rem 0rem -0.5rem; }
-  .textoNoticias {
-    position: absolute;
-    margin: 1rem 0rem 0rem -0.5rem;
-    font-size: 0.8rem; }
-  .decorado {
-    height: 100px;
-    width: 200px;
-    object-fit: cover;
-    border: 1px #301b1b solid;
-    margin: -1rem 0rem -1rem -1rem; }
-  #titulonoticiasMobile {
-    font-size: 1.6rem;
-    margin: 0rem 0rem 3rem 12.6rem; }
-  #titulotrailersMobile {
-    font-size: 1.6rem;
-    margin: 0rem 0rem 2rem 3rem; }
-  p {
-    font-size: 0.6rem; }
-  .flexboxTrailer {
-    margin: -22rem 3rem 0rem 0rem; }
-  .titulosImagenmobile {
-    font-size: 1.2rem;
-    margin: 1rem 0rem 1rem 3rem; }
-  .videos {
-    width: 350px;
-    height: 200px;
-    margin: 0rem 0rem 0rem 3rem; }
-  /* Contenido de Footer */
-  .flexboxFooter {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 10rem 0rem 0rem 6rem; }
-  .textFooter {
-    font-size: 0.9rem;
-    margin: 1rem 0rem 0rem 0rem; }
-  .flexboxFootericon {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin: -5.2rem 12rem 0rem 0rem; }
-  #tituloIcon {
-    position: absolute;
-    font-family: "Play", sans-serif;
-    font-size: 1rem;
-    margin: -3rem -2.1rem 0rem 0rem; }
-  .textIcon {
-    font-size: 0.8rem; }
-  .tituloFoot {
-    font-family: "Oswald", "sans-serif";
-    font-size: 1.3rem;
-    text-decoration: underline;
-    position: absolute;
-    margin: -3rem 0rem 4.7rem 0rem; }
-  .tituloFootcontacto {
-    font-size: 1.3rem;
-    margin: 5rem 0rem 0rem 2rem; } }

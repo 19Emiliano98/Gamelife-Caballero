@@ -1,4 +1,4 @@
-@media (min-width: 768px){
+@media (max-width: 768px){
     /* Grid mobile */
     /* Grid Index */
     .gridPadre {
@@ -79,12 +79,12 @@
     .flexboxCarousel{
         display: flex;
         justify-content: center;
-        margin: 0rem 8rem 0rem 8rem;
+        margin: 6rem 8rem 0rem 8rem;
     }
     .tituloCarousel{
         font-family: $titulo;
         font-size: 1.7rem;
-        margin: 35rem 0rem 0rem 10.8rem;
+        margin: 40rem 0rem 0rem 10.8rem;
     }
     .flexboxTitulocarousel{
         display: flex;
@@ -96,18 +96,18 @@
         margin: -13rem 0rem 0rem 12.1rem;
     }
     .fixTitulo{
-        margin: 37.5rem 0rem 0rem -20rem;
+        margin: 43rem 0rem 0rem -20rem;
     }
     .parrafoCarousel{
         font-size: 1rem;
-        margin: 5rem 0rem 0rem 0rem;
+        margin: 11rem 0rem 0rem 0rem;
     }
 
     /* Body */
     .flexboxNoticias{
         display: flex;
         flex-direction: column;
-        margin: -32rem 0rem 0rem 6rem;
+        margin: -24rem 0rem 0rem 6rem;
     }
     .ubicacionContent{
         margin: 0rem 1.5rem 0rem -4.5rem;
@@ -146,22 +146,17 @@
     }
     #titulotrailersMobile{
         font-size: 1.6rem;
-        margin: 0rem 0rem 2rem 3rem;
+        margin: 0rem 0rem 2rem 0rem;
     }
     p{
         font-size: 0.6rem;
     }
     .flexboxTrailer{
-        margin: -22rem 3rem 0rem 0rem;
+        margin: -11rem 0rem 0rem 0rem;
     }
     .titulosImagenmobile{
         font-size: 1.2rem;
-        margin: 1rem 0rem 1rem 3rem;
-    }
-    .videos{
-        width: 350px;
-        height: 200px;
-        margin: 0rem 0rem 0rem 3rem;
+        margin: 1rem 0rem 1rem 0rem;
     }
 
     /* Contenido de Footer */
@@ -169,7 +164,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin: 10rem 0rem 0rem 6rem;
+        margin: 13rem 0rem 0rem 6rem;
     }
     .textFooter{
         font-size: 0.9rem;
@@ -200,5 +195,57 @@
     .tituloFootcontacto{
         font-size: 1.3rem;
         margin: 5rem 0rem 0rem 2rem;
+    }
+
+    /* Paginas de Secciones*/
+    .flexboxBodysections{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin: 2rem 0rem 0rem 6rem;
+    }
+    .tituloSection{
+        font-size: 1.6rem;
+        margin: -5rem 0rem 0.5rem 0rem;
+    }
+    .titulosJuegos{
+        font-family: $subtitulosNav;
+        font-size: 1.4rem;
+    }
+    .textoJuegos{
+        font-family: $parrafo;
+        font-size: 0.8rem;
+    }
+    .listadoJuegos{
+        font-family: $parrafo;
+        font-size: 0.8rem;
+    }
+    .contenidoJuegos{
+        margin: -1rem 0rem 0rem -4rem;
+    }
+    .decoradoPortadas{
+        height: 220px;
+        width: 150px;
+        object-fit: cover;
+        @include bordes;
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
+    /* Seccion de contactos */
+    .flexboxContacto{
+        display: flex;
+        flex-direction: column;
+        margin: -5rem 0rem 0rem 0rem;
+    }
+    
+    /* FooterSections */
+    .flexboxFootermobile{
+        margin: 15rem 0rem 0rem 8rem;
+    }
+    .flexboxFootericonmobile{
+        margin: -4.5rem 12rem 3rem 0rem;
+    }
+    .textFooter{
+        font-size: 0.8rem;
     }
 }
