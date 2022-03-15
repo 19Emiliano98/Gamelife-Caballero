@@ -1,5 +1,4 @@
-/* media */
-@media (min-width: 425px){
+@media (min-width: 768px){
     /* Grid mobile */
     /* Grid Index */
     .gridPadre {
@@ -51,31 +50,28 @@
         }
         .gridFooter__sections { 
             grid-area: 5 / 1 / 6 / 6;
-            margin: 0rem 0rem 0rem 0rem;
             background-image: linear-gradient(to bottom, map-get($map: $fondos, $key: 'centro'), map-get($map: $fondos, $key: 'extremos'));
-        }    
-
+        } 
     /* Titulo Gamelife*/
     #titulo{
-        font-size: 2.7rem;
+        font-size: 4rem;
     }
     #marginTitulo{
-        margin: 0rem 0rem 0rem 8rem;
+        margin: 1rem 0rem 0rem 15.5rem;
     }
     .icono{
-        height: 4rem;
-        width: 4rem; 
-        margin: 0rem 0rem 0rem 4.2rem;
-    }
-
+        height: 5rem;
+        width: 5rem; 
+        margin: 1rem 0rem 0rem 11rem;
+    } 
     /* Navbar */
     .flexboxNav{
-    display: flex;
-    justify-content: flex-end;
-    margin: 8rem 2rem 0rem 0rem;
-    }
+        display: flex;
+        justify-content: center;
+        margin: 12rem 0rem 0rem 0rem;
+        }
     .flexboxNav div{
-        font-size: 0.9rem;
+        font-size: 1.4rem;
         font-family: $subtitulosNav;
     }
 
@@ -83,30 +79,27 @@
     .flexboxCarousel{
         display: flex;
         justify-content: center;
-        margin: 5rem 1.7rem 0rem 1.7rem;
-    }
-    .decoradoCarousel{
-        object-fit: cover;
+        margin: 0rem 8rem 0rem 8rem;
     }
     .tituloCarousel{
         font-family: $titulo;
-        font-size: 1rem;
-        margin: 20rem 0rem 0rem 0.8rem;
+        font-size: 1.7rem;
+        margin: 35rem 0rem 0rem 10.8rem;
     }
     .flexboxTitulocarousel{
         display: flex;
         justify-content: center;
         position: absolute;
-        margin: -29rem 0rem 0rem 3rem;
+        margin: -50rem 0rem 0rem -3rem;
     }
     .flexboxTextcarousel{
-        display: flex;
-        margin: -8rem 0rem 0rem 6.2rem;
+        margin: -13rem 0rem 0rem 12.1rem;
     }
     .fixTitulo{
-        margin: 22rem 0rem 0rem -12rem;
+        margin: 37.5rem 0rem 0rem -20rem;
     }
     .parrafoCarousel{
+        font-size: 1rem;
         margin: 5rem 0rem 0rem 0rem;
     }
 
@@ -114,11 +107,11 @@
     .flexboxNoticias{
         display: flex;
         flex-direction: column;
-        margin: -26rem 0rem 0rem 6rem;
+        margin: -32rem 0rem 0rem 6rem;
     }
     .ubicacionContent{
-        margin: 0rem 0.7rem 0rem -5.3rem;
-        padding: 10px;
+        margin: 0rem 1.5rem 0rem -4.5rem;
+        padding: 25px;
     }
     .backCard{
         background-color: map-get($map: $fondos, $key: 'card');
@@ -127,50 +120,47 @@
         font-family: $subtitulosNav;
         font-size: 1.2rem;
         text-decoration: underline;
-        margin: 0rem 0rem 3rem 0rem;
+        margin: 0rem 0rem 10rem 0rem;
     }
     .titulosNoticias{
-        font-size: 0.7rem;
+        font-size: 1rem;
         font-family: $subtitulosNav;
         position: absolute;
-        margin: -3.7rem 0rem 0rem 6.3rem;
+        margin: -2rem 0rem 0rem -0.5rem;
     }
     .textoNoticias{
         position: absolute;
-        margin: -1.6rem 0rem 0rem 6.4rem;
-    }
-    .titulosImagen{
-        font-size: 1.4rem;
-        font-family: $subtitulosNav;
+        margin: 1rem 0rem 0rem -0.5rem;
+        font-size: 0.8rem;
     }
     .decorado{
-        height: 60px;
-        width: 105px;
+        height: 100px;
+        width: 200px;
         object-fit: cover;
         border: 1px rgb(48, 27, 27) solid;
-        margin: 0rem 0rem -1rem 0rem;
+        margin: -1rem 0rem -1rem -1rem;
     } 
-    .titulosImagenmobile{
-        display: flex;
-        justify-content: center;
-        font-size: 1rem;
-        margin: 1rem 0rem 1rem 3rem;
-    }
     #titulonoticiasMobile{
-        margin: 0rem 0rem 3rem 3rem;
+        font-size: 1.6rem;
+        margin: 0rem 0rem 3rem 12.6rem;
     }
     #titulotrailersMobile{
+        font-size: 1.6rem;
         margin: 0rem 0rem 2rem 3rem;
     }
     p{
         font-size: 0.6rem;
     }
     .flexboxTrailer{
-        margin: -16rem 3rem 0rem 0rem;
+        margin: -22rem 3rem 0rem 0rem;
+    }
+    .titulosImagenmobile{
+        font-size: 1.2rem;
+        margin: 1rem 0rem 1rem 3rem;
     }
     .videos{
-        width: 280px;
-        height: 150px;
+        width: 350px;
+        height: 200px;
         margin: 0rem 0rem 0rem 3rem;
     }
 
@@ -178,22 +168,27 @@
     .flexboxFooter{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin: 15rem 0rem 0rem 0rem;
+        align-items: flex-start;
+        margin: 10rem 0rem 0rem 6rem;
+    }
+    .textFooter{
+        font-size: 0.9rem;
+        margin: 1rem 0rem 0rem 0rem;
     }
     .flexboxFootericon{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin: 8rem 0rem 0rem -5rem;
+        align-items: flex-end;
+        margin: -5.2rem 12rem 0rem 0rem;
     }
     #tituloIcon{
         position: absolute;
         font-family: $parrafo;
-        margin: -3rem 0rem 0rem 4rem;
+        font-size: 1rem;
+        margin: -3rem -2.1rem 0rem 0rem;
     }
     .textIcon{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .tituloFoot{
         font-family: $subtitulosNav;
@@ -205,46 +200,5 @@
     .tituloFootcontacto{
         font-size: 1.3rem;
         margin: 5rem 0rem 0rem 2rem;
-    }
-
-    /* Paginas de Secciones*/
-    .flexboxBodysections{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        margin: 2rem 0rem 0rem 6rem;
-    }
-    .tituloSection{
-        font-size: 1.6rem;
-        margin: -16rem 0rem 0.5rem 0rem;
-    }
-    .titulosJuegos{
-        font-family: $subtitulosNav;
-        font-size: 1rem;
-    }
-    .textoJuegos{
-        font-family: $parrafo;
-    }
-    .listadoJuegos{
-        font-family: $parrafo;
-        font-size: 0.6rem;
-    }
-    .contenidoJuegos{
-        margin: -14.5rem 0rem 0rem 8.9rem;
-    }
-    .decoradoPortadas{
-        height: 220px;
-        width: 150px;
-        object-fit: cover;
-        @include bordes;
-        margin: 0rem 0rem 0rem 0rem;
-    }
-
-    /* FooterSections */
-    .flexboxFootermobile{
-        margin: 5rem 0rem 0rem 0rem;
-    }
-    .flexboxFootericonmobile{
-        margin: 7rem 0rem 0rem -4rem;
     }
 }
